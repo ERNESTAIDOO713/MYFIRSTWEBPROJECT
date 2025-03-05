@@ -85,7 +85,7 @@ nav ul li a:hover::after{
     position: absolute;
     transform: translate(-50%, -50%);   
     left: 50%;
-    top: 50%;
+    top: 70%;
     width: 90%; 
 
 }
@@ -724,7 +724,11 @@ p{
         
     }
 
+    .courseCol {
 
+       width: 100%;
+        
+    }
 
     }
     
