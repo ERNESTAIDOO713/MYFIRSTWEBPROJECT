@@ -51,13 +51,6 @@ nav ul li{
 
 }
 
-.navLinks{
-
-    flex: 1;
-    text-align: right;
-}
-
-
 nav ul li a{
     color: white;
     text-decoration: none;
