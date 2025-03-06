@@ -665,31 +665,25 @@ p{
 
 /*Mobile View(Responsiveness)*/
     
-@media screen and (max-width: 700px) {
-
-.subheader{
-
-   font-size: 24px;
-    
-}  
-    
+@media screen and (max-width: 768px) {
+ 
     .textbox{
         
-       width: 90%; 
-       padding: 16px; 
-       font-size: 12px;
+       max-width: 90%; 
+       padding: 15px; 
+        
     }
     
     
     .textbox h1{
-        font-size: 20px;
+        font-size: 2rem;
     
     }  
     
     .textbox p{
         font-size: 1rem;
-    }
-    
+    } 
+   
     nav ul li{
         display: block;
     }
