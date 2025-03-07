@@ -278,10 +278,10 @@ main p{
 
 .campusCol{
 
-  flex: 1;
-  min-width: 250px;  
-  max-width: 300px;  
-  text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
 
 }
 
@@ -353,10 +353,11 @@ main p{
 
 .facilitiesCol{
 
-    flex: 1;
-    min-width: 200px;
-    max-width: 300px;
-    text-align: center;
+   position: relative;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    
 }
 
 .facilitiesCol img{
