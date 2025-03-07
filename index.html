@@ -33,68 +33,86 @@
             <h1>World's Biggest University</h1>
             <p>Eduford is on a mission to prepare, train, raise Future Leaders, Generational Thinkers and Game Changers. Join us Now!   
             </p>
-            <a href="" class="btn">Visit us to Know more</a>
+            <a href="edufordblog.html" class="btn">Visit us to Know more</a>
          </div>
      </section>
    
      
     
      <!--Course--->
-     <section class="course">
-     <h1>Our Diploma & Degree Programmes</h1>
-     <p>We offer the following Diploma, Undergraduate and Post Graduate Programmes;</p>
-     <div class="row">
+     
+    <main>           
         
-     <div class="courseCol">       
-       <h3>Diploma(6 to 24 months)</h3>  
+        <p><strong>We offer the following Diploma, Undergraduate & Postgraduate Degree Programmes. Click on Arrows to Browse through;</strong></p>  
+              
+    <section class="courses">
+    <section class="course-item">
+      <button class="course-btn">Diploma(6 to 24 months)</button> 
+            
+        <div class="course-list">
+            
        <p>Graphic Design.</p>  
        <p>Web Development.</p>  
        <p>Systems Engineering.</p>  
        <p>Data Base Administration.</p>  
        <p>Robotics.</p>  
-       <p>Software Engineering.</p>  
-         </div>  
-                     
-     
-     <div class="courseCol">      
-       <h3>Undergraduate</h3>  
+       <p>Software Engineering.</p> 
+             
+          </div> 
+            </section> 
+           
+            
+            
+            <section class="course-item">
+           <button class="course-btn">Undergrate</button> 
+
+             <div class="course-list">
+            
        <p>B.sc. Computer Science.</p>  
        <p>B.sc. Mathematics.</p> 
        <p>B.sc. Statistics.</p>  
        <p>B.sc. Computer Engineering.</p>  
        <p>B.sc. Chemical Engineering.</p>  
        <p>B.sc. Nursing.</p>  
-       <p>B.Arts Economics.</p>  
+       <p>B.Arts Economics.</p>           
        <p>B.sc. Business Administration(Accounting, Marketing & Finance options).</p>  
        <p>B.sc. Actuarial Science.</p> 
        <p>B.sc Civil Engineering.</p>  
-       <p>B.sc Architecture & Planning.</p>  
-         </div>  
-                      
-    
-     <div class="courseCol">      
-       <h3>Post Graduate.</h3>  
+       <p>B.sc Architecture & Planning.</p>     
+            
+          </div> 
+            </section> 
+        
+         
+         
+         
+         
+      <section class="course-item">
+      <button class="course-btn">Post Graduate</button> 
+
+             <div class="course-list">
+            
        <p>M.sc. Computer Science.</p>  
        <p>M.sc. Mathematics.</p>     
        <p>M.sc. Statistics.</p>  
        <p>M.sc. Computer Engineering.</p>  
        <p>M.sc. Chemical Engineering.</p>  
        <p>M.sc. Nursing.</p>  
-       <p>M.Arts Economics.</p>      
+       <p>M.Arts Economics</p>      
        <p>Masters of Business Administration(MBA).</p>
        <P>Msc. Actuarial Science.</P>  
        <p>M.sc. Civil Engineering.</p>  
-       <p>M.sc. Architecture & Planning.</p>  
-         </div>  
-                         
+       <p>M.sc. Architecture & Planning.</p>   
+                   
+          </div> 
+            </section> 
          
-      </div>
-      </section> 
+            </section>
     
-    <!---Campus-->
-     <section class="campus">
+    
+    <!---Campus-->  
+    <section class="campus">
      <h1>Our Global Campus</h1>
-     <p></p>
      <div class="row">
      <div class ="campusCol">
      <img src="eduford_img/london.png" alt="London Campus">   
@@ -121,12 +139,15 @@
          
          </div>
     </section>
-    
-  <!---Facilties--->
+        
+
+         
+    <!---Facilties--->
+       
     <section class="facilities">
-     <h1>Our World Class Facilities</h1>
-     <p></p>
-     <div class="row">
+    <h1>Our World Class Facilities</h1>
+     <br>
+        <div class="row">
      
     <div class ="facilitiesCol">
      <img src="eduford_img/library.png" alt="library">   
@@ -149,7 +170,8 @@
     </section> 
      
    <!--Testimonials--> 
-   <section class="testimonials">
+      
+    <section class="testimonials">
    <h1>What Our Students & Alumni Say</h1>
    <p>Our proud alumini can be counted as part of individuals creating change, Making impactful contributions to society and the world at Large in their various fields of endeavours. Here is what some of them have to say:</p> 
    
@@ -169,16 +191,21 @@
        
        </div>  
     </section>
-    
+        
     
     <!---Call to Action--->
+       
     <section class="cta">
     <h1>Join Us Online from anywhwere across the World!</h1>
     <a href="edufordcontact.html" class = "btn">CONTACT US</a>
     </section>
+    </main>     
+        
     
-           <!---Footer---->
-           <section class="footer">
+    
+    
+    <!---Footer---->
+         <section class="footer">
            <h4>About Us</h4> 
            <p>Eduford is one of the World's Top 100 Ranking Universities in 2025.</p> 
            
@@ -192,7 +219,54 @@
                </div>
                </section>
     
-    <script>
+    
+         
+         <script>
+       
+        document.addEventListener("DOMContentLoaded", function() {
+           
+         const buttons = document.querySelectorAll(".course-btn");  
+           
+         buttons.forEach(button => { button.addEventListener("click", function() {
+             
+             
+            buttons.forEach(btn => {
+                
+                
+                if(btn !== this) {
+                    
+                  btn.classList.remove("active");
+                    
+                  btn.nextElementSibling.style.display = "none"; 
+                
+                
+                }
+                
+                
+            }); 
+             
+             
+           this.classList.toggle("active"); 
+         
+              let content = this.nextElementSibling;
+         
+             content.style.display = content.style.display === "block" ? "none" : "block";
+         
+         });
+         
+         
+         
+         }); 
+           
+           
+           
+           
+       });
+    
+    
+    </script>   
+         
+         <script>
           var menu = document.getElementById("navLinks");
           if (window.matchMedia("(min-width: 700px)").matches) {
             menu.style.display = "block"; // Show menu
@@ -206,7 +280,8 @@
          function hideMenu() {
              document.querySelector('.navLinks').style.display = 'none';
          }
-     </script>
+     
     
-</body>
+    </script>    
+    </body>
 </html>
