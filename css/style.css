@@ -277,15 +277,12 @@ main p{
 
 
 .campusCol{
-    
-    flex-basis: 32%;
-    padding: 20px 10px;
-    box-sizing: border-box;
-    position: relative; 
-    margin-bottom: 30px;
-    border-radius: 10px;
-    overflow: hidden;
-    
+
+  flex: 1;
+  min-width: 250px;  
+  max-width: 300px;  
+  text-align: center;
+
 }
 
 
@@ -356,12 +353,11 @@ main p{
 
 .facilitiesCol{
 
-    
-   flex-basis: 31%;  
-   border-radius: 10px; 
-   margin-bottom: 5%;  
-   text-align: left; 
- }
+    flex: 1;
+    min-width: 200px;
+    max-width: 300px;
+    text-align: center;
+}
 
 .facilitiesCol img{
     
@@ -395,8 +391,8 @@ main p{
 
 display: flex;
 flex-wrap: wrap;
-justify-content: space-around;
-margin-top: 5%;
+justify-content: center;;
+gap: 20px;
 width: 100%;   
 }
 
@@ -809,9 +805,11 @@ p{
     }
     
     .row{
-        
+       display: flex; 
        flex-direction: column;
-       align-items: center;
+       flex-wrap: no-wrap;
+       justify-content: space-between;
+    
     }
     
 .testimonials{
@@ -860,7 +858,7 @@ p{
         
     }
 
-
+    
 
 
    }
