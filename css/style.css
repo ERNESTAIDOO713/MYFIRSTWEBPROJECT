@@ -395,9 +395,9 @@ main p{
 
 display: flex;
 flex-wrap: wrap;
-justify-content: center;
-gap: 20px;
-   
+justify-content: space-around;
+margin-top: 5%;
+width: 100%;   
 }
 
 .testimonials{
@@ -811,7 +811,7 @@ p{
     .row{
         
        flex-direction: column;
-       align-items: center; 
+       align-items: center;
     }
     
 .testimonials{
@@ -834,10 +834,6 @@ p{
       text-align: center;
         
     }
-    
-    
-    
-    
     
     .cta h1{
         
