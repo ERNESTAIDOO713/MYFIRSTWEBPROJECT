@@ -272,14 +272,14 @@ main p{
    width: 80%; 
    text-align: center; 
    margin: auto; 
-   padding-top: 100px;
+   padding-top: 50px;
 }
 
 
 .campusCol{
 
     position: relative;
-    display: flex;
+    flex-basis: 31%;
     flex-direction: column;
     overflow: hidden;
 
@@ -295,10 +295,17 @@ main p{
    border-radius: 10px;
 }
 
+.base: hover{
+
+    background: rgba(240,151,151, 0.7);
+
+    
+}
+
 .base{
   
   background: transparent;    
-  width: 100%;;  
+  width: 100%;  
   position: absolute;
   bottom: 0px;
   left: 0;
@@ -353,11 +360,12 @@ main p{
 
 .facilitiesCol{
 
-   position: relative;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    
+   flex-basis: 31%;
+   border-radius: 10px;%
+   margin-bottom: 5%; 
+   text-align: left;
+
+
 }
 
 .facilitiesCol img{
@@ -385,16 +393,22 @@ main p{
     
 }
 
+.facilities-col img: hover{
 
+  box-shadow: 0 0 30px 0px rgba(15, 15, 15, 0.2);
+    
+}
 /*Testimonials*/
 
 .row{
 
 display: flex;
 flex-wrap: wrap;
-justify-content: center;;
+justify-content: center;
 gap: 20px;
 width: 100%;   
+
+
 }
 
 .testimonials{
@@ -806,10 +820,9 @@ p{
     }
     
     .row{
-       display: flex; 
+ 
        flex-direction: column;
-       flex-wrap: no-wrap;
-       justify-content: space-between;
+       align-items: center;
     
     }
     
@@ -859,7 +872,17 @@ p{
         
     }
 
-    
+    .header{
+
+       min-height: 60vh;
+        
+    }
+
+  .subheader{
+
+    min-height: 30vh;
+      
+  }
 
 
    }
