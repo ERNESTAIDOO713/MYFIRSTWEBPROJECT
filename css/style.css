@@ -877,14 +877,14 @@ p{
     
     .header{
         
-      min-height: 60vh;  
+      min-height: 100vh;  
         
     }
     
 
     .subheader{
         
-        min-height: 30vh;
+        min-height: 50vh;
         
         
     }
