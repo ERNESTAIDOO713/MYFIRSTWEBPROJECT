@@ -220,7 +220,7 @@ nav ul li a:hover::after{
 
 .courses p{
     
-    font-size: 16px;
+    font-size: 1em;;
     
 }
 
@@ -523,10 +523,19 @@ border: 3px solid purple;
 
 }
 
+.footer p{
+
+    font-size: 1em;
+    line-height: 1.5;
+    
+}
+
+
+
 .footer p i.fa-copyright{
-    
+    font-size: 1 em;
     color: purple;
-    
+    line-height: 1.5;
 }
 
 /*Contact*/
@@ -677,6 +686,9 @@ p{
 
 .blogleft p{
     
+    
+    line-height: 1.5;
+    font-size: 1em;
     font-family: 'Arial';   
     
     
@@ -889,10 +901,38 @@ p{
         
     }
     
-    
+    .blogleft p{
 
+       font-size: 0.875em;
+       line-height: 1.5;
+        
     }
 
+    
+    .courses p{
+
+       font-size: 0.875em;
+       line-height: 1.5;
+        
+    }
+
+
+   .footer p{
+
+     font-size: 0.875em;
+     line-height: 1.5;  
+   
+   }
+
+   .footer p i.fa-copyright{
+    font-size: 0.875em;
+    color: purple;
+    line-height: 1.5; 
+   
+   }
+
+
+   }
 
 /*Tablets and Foldables*/
 
