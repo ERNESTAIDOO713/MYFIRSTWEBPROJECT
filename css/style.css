@@ -220,7 +220,7 @@ nav ul li a:hover::after{
 
 .courses p{
     
-    font-size: 1em;;
+    font-size: 1em;
     
 }
 
@@ -525,7 +525,7 @@ border: 3px solid purple;
 
 .footer p{
 
-    font-size: 1em;
+    font-size: 14px;
     line-height: 1.5;
     
 }
@@ -687,7 +687,7 @@ p{
 .blogleft p{
     
     line-height: 1.5;
-    font-size: 1em;       
+    font-size: 14px;       
     
 }
 
