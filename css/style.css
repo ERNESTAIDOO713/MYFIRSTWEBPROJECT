@@ -114,14 +114,14 @@ nav ul li a:hover::after{
     position: absolute;
     transform: translate(-50%, -50%);   
     left: 50%;
-    top: 60%;    
+    top: 50%;    
     width: 90%; 
 
 }
 
 .textbox h1{
     
-    font-size: 2em;
+    font-size: 50px;
     color: peachpuff;
 }
 
@@ -219,7 +219,7 @@ nav ul li a:hover::after{
 
 .courses p{
     
-    font-size: 1em;
+    font-size: 14px;
     
 }
 
@@ -532,7 +532,7 @@ border: 3px solid purple;
 
 
 .footer p i.fa-copyright{
-    font-size: 1 em;
+    font-size: 14px;
     color: purple;
     line-height: 1.5;
 }
@@ -881,25 +881,10 @@ p{
         
         flex-basis: 100%;
     }
-
-    
-    .header{
-        
-      min-height: 60vh;  
-        
-    }
-    
-
-    .subheader{
-        
-        min-height: 30vh;
-        
-        
-    }
     
     .blogleft p{
 
-       font-size: 0.875em;
+       font-size: 13px;
        line-height: 1.5;
         
     }
@@ -907,7 +892,7 @@ p{
     
     .courses p{
 
-       font-size: 0.875em;
+       font-size: 13px;
        line-height: 1.5;
         
     }
@@ -915,48 +900,16 @@ p{
 
    .footer p{
 
-     font-size: 0.875em;
+     font-size: 13px;
      line-height: 1.5;  
    
    }
 
    .footer p i.fa-copyright{
-    font-size: 0.875em;
+    font-size: 13px;
     color: purple;
-    line-height: 1.5; 
-   
-   }
-
+    line-height: 
 
    }
 
-/*Tablets and Foldables*/
-
-@media (max-width: 1024px){
-    
-    
-    .header{
-        
-       min-height: 90vh; 
-        
-    }
-    
-    
-    .subheader{
-        
-      min-height: 45vh;  
-        
-        
-    }
-    .btn{
-
-        padding:8px 15px;
-        font-size:12px;
-    }
-
-    }
-
-
-
-    
-
+}
