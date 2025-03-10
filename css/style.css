@@ -138,8 +138,7 @@ nav ul li a:hover::after{
    display: inline-block;
    justify-content: center; 
     color: black;
-    border: 3px solid black;
-    padding: 12px 34px;
+    padding: 10px 20px;
     cursor: pointer;
     text-decoration: none;
     background: transparent;
@@ -162,7 +161,7 @@ nav ul li a:hover::after{
 
 .redbtn{
 
-  border: 3px solid;
+  border: 1px solid;
   background: transparent;
   color: black;
   font-weight: bold;
@@ -949,7 +948,11 @@ p{
         
         
     }
-    
+    .btn{
+
+        padding:8px 15px;
+        font-size:12px;
+    }
 
     }
 
