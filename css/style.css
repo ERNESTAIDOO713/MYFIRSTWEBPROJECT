@@ -121,7 +121,7 @@ nav ul li a:hover::after{
 
 .textbox h1{
     
-    font-size: 50px;
+    font-size: 45px;
     color: peachpuff;
 }
 
@@ -145,7 +145,7 @@ nav ul li a:hover::after{
     font-size: 13px;
     font-weight: bold;
     position: relative;
-    margin-top: 10px;
+    margin-top: 5px;
 }
  
 
