@@ -741,14 +741,15 @@ p{
 
 .commentbox{
    
-   width: 60%;
+   width: 100%;
    margin: 20px auto;
    padding: 20px;  
    border: 2px solid #ccc; 
    border-radius: 10px;
    background-color: #f9f9f9;
    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-   min-width:400px;
+   min-width:300px;
+   max-width:600px;
 }
 
 .commentbox form{
