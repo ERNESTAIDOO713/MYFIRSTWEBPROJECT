@@ -3,7 +3,17 @@
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', 'sans-serif';
+    box-sizing: border-box;
+
 }
+
+
+body{
+
+    overflow-x:hidden;
+    
+}
+
 
 /*Header*/
 
