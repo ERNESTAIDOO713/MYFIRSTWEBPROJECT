@@ -165,6 +165,7 @@ nav ul li a:hover::after{
     border: 3px solid rgb(248, 246, 246);
     transition: 1s;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border:2px solid;
 }
 
 
@@ -172,7 +173,7 @@ nav ul li a:hover::after{
 
 .redbtn{
 
-  border: 1px solid;
+  border: 2px solid;
   background: transparent;
   color: black;
   font-weight: bold;
