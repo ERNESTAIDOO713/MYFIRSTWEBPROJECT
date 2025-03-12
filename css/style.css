@@ -764,7 +764,7 @@ p{
 .commentbox input[type = "email"],
 .commentbox textarea{
     
-   width: 95%; 
+   width: 100%; 
    padding: 10px; 
    margin-bottom: 10px; 
    border: 2px solid #ccc; 
