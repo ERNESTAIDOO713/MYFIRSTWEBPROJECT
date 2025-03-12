@@ -764,12 +764,12 @@ p{
 .commentbox input[type = "email"],
 .commentbox textarea{
     
-   width: 85%; 
+   width: 95%; 
    padding: 10px; 
    margin-bottom: 10px; 
    border: 2px solid #ccc; 
    border-radius: 5px; 
-   font-size: 14px; 
+   font-size: 15px; 
 }
 
 .commentbox input[type="text"]{
