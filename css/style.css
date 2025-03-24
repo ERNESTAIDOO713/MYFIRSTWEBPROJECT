@@ -696,10 +696,13 @@ p{
 
 
 .blogleft p{
-    
-    line-height: 1.5;
-    font-size: 14px;       
-    font-family: Sans-serif;
+  
+  font-weight: 400; 
+  color: #333;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 14px;       
+  font-family: Sans-serif;
 }
 
 
@@ -898,9 +901,9 @@ p{
     
     .blogleft p{
 
-       font-size: 10px;
-       line-height: 1.5;
-        
+       font-size: 13px;
+       line-height: 1.4;
+       text-align: justify;
     }
 
     
@@ -915,8 +918,8 @@ p{
    .footer p{
 
      font-size: 10px;
-     line-height: 1.5;  
-   
+     line-height: 1.4;  
+     
    }
 
    .footer p i.fa-copyright{
