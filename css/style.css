@@ -545,7 +545,7 @@ border: 3px solid purple;
 
 .Copyright{
 
-  font-size:14px;    
+  font-size:12px;    
   color:#ccc;
   margin-top: 10px;
   padding-bottom: 10px;
@@ -555,7 +555,7 @@ border: 3px solid purple;
 .Copyright i{
   
   color: purple;
-  font-size: 16px;
+  font-size: 14px;
   margin-right: 5px;
 
 }
@@ -937,14 +937,14 @@ p{
 
    .Copyright{
     
-       font-size: 12px;
+       font-size: 10px;
        padding-bottom: 5px;
 
    }
 
    .Copyright i{
   
-       font-size: 14px;
+       font-size: 12px;
        
    }
     
