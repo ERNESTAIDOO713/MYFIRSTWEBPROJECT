@@ -515,12 +515,12 @@ border: 3px solid purple;
     padding: 30px;
 }
 
-.footer h4{
+.aboutUs{
     
     margin-bottom: 18px;
     margin-top: 10px;
     font-weight: bold;
-    
+    color: #FFD700;
 }
 
 /*Social Media Icons*/
@@ -534,7 +534,7 @@ border: 3px solid purple;
 
 }
 
-.footer p{
+.{
 
     font-size: 14px;
     line-height: 1.5;
