@@ -515,7 +515,7 @@ border: 3px solid purple;
     padding: 30px;
 }
 
-.aboutUs{
+.aboutUsHeading{
     
     margin-bottom: 18px;
     margin-top: 10px;
@@ -534,11 +534,13 @@ border: 3px solid purple;
 
 }
 
-.{
+.footer-text{
 
     font-size: 14px;
-    line-height: 1.5;
-    font-family: Sans-serif;
+    padding: 10px 20px;
+    color:#ddd;
+    margin: 0 auto;
+    max-width: 800px;
 }
 
 
@@ -915,10 +917,10 @@ p{
     }
 
 
-   .footer p{
+   .footer-text{
 
-     font-size: 10px;
-     line-height: 1.4;  
+     font-size: 14px;
+     padding: 5px 15px;
      
    }
 
@@ -929,4 +931,11 @@ p{
 
    }
 
-}
+    .aboutUsHeading{
+
+        font-size:16px;
+        
+    }
+
+
+  }
