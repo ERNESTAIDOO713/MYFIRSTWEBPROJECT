@@ -520,7 +520,7 @@ border: 3px solid purple;
     margin-bottom: 18px;
     margin-top: 10px;
     font-weight: bold;
-    color: #FFD700;
+    color: purple;
 }
 
 /*Social Media Icons*/
@@ -538,7 +538,7 @@ border: 3px solid purple;
 
     font-size: 14px;
     padding: 10px 20px;
-    color:#ddd;
+    color: darkgray;
     margin: 0 auto;
     max-width: 800px;
 }
@@ -933,7 +933,7 @@ p{
 
     .aboutUsHeading{
 
-        font-size:16px;
+        font-size:12px;
         
     }
 
