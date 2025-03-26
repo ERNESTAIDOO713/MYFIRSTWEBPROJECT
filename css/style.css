@@ -543,13 +543,24 @@ border: 3px solid purple;
     max-width: 800px;
 }
 
+.Copyright{
 
+  font-size:14px;    
+  color:#ccc;
+  margin-top: 10px;
+  padding-bottom: 10px;
 
-.footer p i.fa-copyright{
-    font-size: 14px;
-    color: purple;
-    line-height: 1.5;
 }
+
+.Copyright i{
+  
+  color: purple;
+  font-size: 16px;
+  margin-right: 5px;
+
+}
+
+
 
 /*Contact*/
 
@@ -924,13 +935,21 @@ p{
      
    }
 
-   .footer p i.fa-copyright{
-    font-size: 10px;
-    color: purple;
-    line-height: 
+   .Copyright{
+    
+       font-size: 12px;
+       padding-bottom: 5px;
 
    }
 
+   .Copyright i{
+  
+       font-size: 14px;
+       
+   }
+    
+    
+    
     .aboutUsHeading{
 
         font-size:12px;
