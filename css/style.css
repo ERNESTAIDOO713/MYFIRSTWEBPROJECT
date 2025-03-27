@@ -511,8 +511,8 @@ border: 3px solid purple;
 
 .footer {
    
-    background-color:purple;/* Dark purple background */
-    color: white; /* White text */
+    background-color:purple;
+    color: white;
     text-align: center;
     padding: 20px 10px;
     font-family: sans-serif;
@@ -528,7 +528,7 @@ border: 3px solid purple;
 
 .footer-text {
     
-    font-size: 16px;
+    font-size: 12px;
     margin-bottom: 15px;
     opacity: 0.9;
 }
@@ -539,7 +539,7 @@ border: 3px solid purple;
 }
 
 .icons a {
-    color: purple;
+    color: white;
     font-size: 20px;
     margin: 0 10px;
     transition: color 0.3s ease-in-out;
@@ -557,8 +557,8 @@ border: 3px solid purple;
 }
 
 .Copyright i {
-    margin-right: 3px;
-    color: #ffcc00; /* Gold color for the copyright icon */
+    margin-right: 2px;
+    color: white; 
     vertical-align: middle;
 }
 
@@ -947,7 +947,7 @@ p{
 
     .footer-text {
         
-       font-size: 14px; 
+       font-size: 10px; 
     }
 
     .icons a {
