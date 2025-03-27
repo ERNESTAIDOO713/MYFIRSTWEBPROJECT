@@ -509,57 +509,104 @@ border: 3px solid purple;
 
 /*Footer*/
 
-.footer{
-
-    width: 100%; 
+.footer {
+   
+    background-color: #2c003e; /* Dark purple background */
+    color: white; /* White text */
     text-align: center;
-    padding: 30px;
+    padding: 20px 10px;
+    font-family: Arial, sans-serif;
+
 }
 
-.aboutUsHeading{
+.aboutUsHeading {
     
-    margin-bottom: 18px;
-    margin-top: 10px;
+    font-size: 22px;
     font-weight: bold;
-    color: purple;
+    margin-bottom: 10px;
 }
 
-/*Social Media Icons*/
-
-.icons i{
+.footer-text {
     
-    color: purple; 
+    font-size: 16px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.icons {
+   
+    margin: 10px 0;
+}
+
+.icons a {
+    color: purple;
+    font-size: 20px;
     margin: 0 10px;
-    cursor: pointer;
-    font-size: 24px;
-
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
 }
 
-.footer-text{
+.icons a:hover {
+    color: #ffcc00; /* Gold color on hover */
+}
 
+.Copyright {
     font-size: 14px;
-    padding: 10px 20px;
-    color: darkgray;
-    margin: 0 auto;
+    margin-top: 15px;
+    opacity: 0.8;
 }
 
-.Copyright{
-
-  font-size:12px;    
-  color:#ccc;
-  margin-top: 10px;
-  padding-bottom: 10px;
-
+.Copyright i {
+    margin-right: 5px;
+    color: #ffcc00; /* Gold color for the copyright icon */
 }
 
-.Copyright i{
-  
-  color: purple;
-  font-size: 14px;
-  margin-right: 5px;
-
+.footer {
+    background-color: #2c003e; /* Dark purple background */
+    color: white; /* White text */
+    text-align: center;
+    padding: 20px 10px;
+    font-family: Arial, sans-serif;
 }
 
+.aboutUsHeading {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer-text {
+    font-size: 16px;
+    margin-bottom: 15px;
+    opacity: 0.9;
+}
+
+.icons {
+    margin: 10px 0;
+}
+
+.icons a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    transition: color 0.3s ease-in-out;
+    text-decoration: none;
+}
+
+.icons a:hover {
+    color: #ffcc00; /* Gold color on hover */
+}
+
+.Copyright {
+    font-size: 14px;
+    margin-top: 15px;
+    opacity: 0.8;
+}
+
+.Copyright i {
+    margin-right: 5px;
+    color: purple; /* Gold color for the copyright icon */
+}
 
 
 /*Contact*/
@@ -934,33 +981,29 @@ p{
         
     }
 
-
-   .footer-text{
-
-     font-size: 14px;
-     padding: 5px 15px;
-     
-   }
-
-   .Copyright{
-    
-       font-size: 10px;
-       padding-bottom: 5px;
-
-   }
-
-   .Copyright i{
-  
-       font-size: 12px;
-       
-   }
-    
-    
-    
-    .aboutUsHeading{
-
-        font-size:12px;
+    .footer {
         
+       padding: 15px 10px;
+    
+    }
+
+    .aboutUsHeading {
+        
+       font-size: 20px; 
+    }
+
+    .footer-text {
+        
+       font-size: 14px; 
+    }
+
+    .icons a {
+        font-size: 18px; 
+        margin: 0 8px; 
+    }
+
+    .Copyright {
+        font-size: 12px; 
     }
 
 
