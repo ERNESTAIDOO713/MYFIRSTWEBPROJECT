@@ -514,7 +514,7 @@ border: 3px solid purple;
     background-color:purple;
     color: white;
     text-align: center;
-    padding: 20px 10px;
+    padding: 20px;
     font-family: sans-serif;
 
 }
@@ -528,7 +528,7 @@ border: 3px solid purple;
 
 .footer-text {
     
-    font-size: 12px;
+    font-size: 16px;
     margin-bottom: 15px;
     opacity: 0.9;
 }
@@ -541,7 +541,7 @@ border: 3px solid purple;
 .icons a {
     color: white;
     font-size: 20px;
-    margin: 0 10px;
+    margin: 0 8px;
     transition: color 0.3s ease-in-out;
     text-decoration: none;
 }
@@ -551,13 +551,15 @@ border: 3px solid purple;
 }
 
 .Copyright {
-    font-size: 14px;
-    margin-top: 15px;
-    opacity: 0.8;
+    
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .Copyright i {
-    margin-right: 2px;
+    margin-right: 5px;
     color: white; 
     vertical-align: middle;
 }
@@ -938,16 +940,9 @@ p{
         
        padding: 15px 10px;
     
-    }
-
-    .aboutUsHeading {
-        
-       font-size: 20px; 
-    }
-
-    .footer-text {
-        
-       font-size: 10px; 
+    .aboutUsHeading, .footer-text { 
+    
+        font-size: 14px; 
     }
 
     .icons a {
