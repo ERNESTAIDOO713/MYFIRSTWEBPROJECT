@@ -511,11 +511,11 @@ border: 3px solid purple;
 
 .footer {
    
-    background-color: #2c003e; /* Dark purple background */
+    background-color:purple;/* Dark purple background */
     color: white; /* White text */
     text-align: center;
     padding: 20px 10px;
-    font-family: Arial, sans-serif;
+    font-family: sans-serif;
 
 }
 
@@ -557,57 +557,10 @@ border: 3px solid purple;
 }
 
 .Copyright i {
-    margin-right: 5px;
+    margin-right: 3px;
     color: #ffcc00; /* Gold color for the copyright icon */
+    vertical-align: middle;
 }
-
-.footer {
-    background-color: #2c003e; /* Dark purple background */
-    color: white; /* White text */
-    text-align: center;
-    padding: 20px 10px;
-    font-family: Arial, sans-serif;
-}
-
-.aboutUsHeading {
-    font-size: 22px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
-
-.footer-text {
-    font-size: 16px;
-    margin-bottom: 15px;
-    opacity: 0.9;
-}
-
-.icons {
-    margin: 10px 0;
-}
-
-.icons a {
-    color: white;
-    font-size: 20px;
-    margin: 0 10px;
-    transition: color 0.3s ease-in-out;
-    text-decoration: none;
-}
-
-.icons a:hover {
-    color: #ffcc00; /* Gold color on hover */
-}
-
-.Copyright {
-    font-size: 14px;
-    margin-top: 15px;
-    opacity: 0.8;
-}
-
-.Copyright i {
-    margin-right: 5px;
-    color: purple; /* Gold color for the copyright icon */
-}
-
 
 /*Contact*/
 
