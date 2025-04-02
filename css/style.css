@@ -746,7 +746,7 @@ border: 3px solid purple;
 .aboutUS {
     width: 80%;
     margin: auto;
-    padding: 80px 0; /* Adjusted padding for uniform spacing */
+    padding: 60px 0; /* Adjusted padding for uniform spacing */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
