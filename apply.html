@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>PUST Applicants Page</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/03ea54c15a.js" crossorigin="anonymous"></script>
+
+    </head> 
+    <body>
+    
+    <!---Header(Navigation Bar, Eduford Logo)--->
+    <section class="subheader">
+           <nav class="nav">
+            
+               <a href="index.html" class = "logo-container"><img src="pustimages/purplegradcap.png" alt="logo"
+               class="logo">
+               <span class = "logo-text">PUST</span>
+               </a>    
+               <div class="navLinks" id="navLinks">
+                <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+                
+              <ul>
+                 <li><a href="index.html">HOME</a></li>
+                 <li><a href="about.html">ABOUT US</a></li>
+                 <li><a href="course.html">COURSES</a></li>
+                 <li><a href="blog.html">BLOG</a></li>
+                 <li><a href="contact.html">CONTACT US</a></li>
+              </ul>
+             </div>
+
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            
+           </nav>
+        
+        <h1>Apply Now</h1>
+        
+        </section>
+    
+        <section class = "applySection">
+        
+        
+        <h1>Apply Now</h1>
+            <p>Move to the Next Level of your Academic Journey with PUST. Please the Follow the Steps below, to Apply.</p>
+            
+            <h2>Application Process</h2>
+            <br>
+            <ul>
+               
+                <li><strong>Access the Admissions Portal on the University's Website: www.PUSTApply.com</strong>
+                    NB: Students in Accra, Ghana are to purchase an E-voucher at any GCB and ECOBANK Branch Nationwide for 150 ghana cedis.</li>
+                
+                <li><strong>Prepare All Relevant Documents:</strong>
+                    Gather Academic Transcripts, Personal Statements, Letters of Recommendation, Results Slips, Passport Sized Photographs(3) for all category of Programmes and as well other Relevant Documents.</li>
+                
+                 <li><strong>Choose Your Programme:</strong>
+                    Select Your Preferred Diploma, Undergraduate, Postgraduate or Doctorate Degree Programme.</li>
+                
+                <li><Strong>Fill Out the Application Form:</Strong>
+                    Fill out the Application Form provided. Make sure to provide accurate and relevant details or information. The University shall not be held liable for incorrect information provided.</li>
+                
+                <li><strong>Submit Your Application Details:</strong>
+                    Click the Submit Button and follow any instructions provided.</li>
+                
+                <li><strong>Track Your Application:</strong>
+                    Successful Applicants will recieve a confirmation email with login details.</li>
+                
+                <li><strong>Accept Your Offer:</strong>
+                    Once accepted, Confirm your enrolment to secure a spot.</li>
+            
+            </ul>
+             <br>
+             <h2>Application Deadlines</h2>
+            
+            <ul>
+            <br>
+            <li><strong>Fall Semester:</strong>August 1</li>
+                
+            <li><strong>Spring emester:</strong>December 1</li>
+                
+            <li><strong>Summer Programmes:</strong>May 1</li>
+                
+            <li><strong>Online Programmes:</strong>May 20</li> 
+            
+            
+            </ul>
+        
+        <br>
+        
+        
+            For Inquiries, Contact <strong>admissions@PUST.gmail.com.</strong>
+             <br>
+            <br>
+             
+            Or call the following Lines:
+            
+            <ul>
+                <li>+233540590051/+233540249957(Accra, Ghana)</li>
+                <li>+1 (206) 555-1212 (Washington, USA)</li>
+                <li>+ 44 (0)20 7123 4567(Ealing, West London)</li>
+            </ul>
+        </section> 
+        
+        
+        <section class="footer">
+           <a href="about.html" class = "btn redbtn">Learn More About Us</a>   
+           <br> 
+           <br> 
+            <div class="icons">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>    
+            <a href="https://twitter.com" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>   
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>   
+            <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>      
+            <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+               </div>
+               
+               <p class = "Copyright">
+               
+               <i class="fa-solid fa-copyright"></i>Copyright 2025. Pioneers University Of Science & Technology.
+               </p> 
+        
+              </section>
+    
+   
+       <!----Java Script For Collapse Menu--->
+     
+        <script>     
+         
+        document.addEventListener("DOMContentLoaded", function() {
+           
+         const buttons = document.querySelectorAll(".course-btn");  
+           
+         buttons.forEach(button => { button.addEventListener("click", function() {
+             
+             
+            buttons.forEach(btn => {
+                
+                
+                if(btn !== this) {
+                    
+                  btn.classList.remove("active");
+                    
+                  btn.nextElementSibling.style.display = "none"; 
+                
+                
+                }
+                
+                
+            }); 
+             
+             
+           this.classList.toggle("active"); 
+         
+              let content = this.nextElementSibling;
+         
+             content.style.display = content.style.display === "block" ? "none" : "block";
+         
+         });
+         
+         
+         
+         }); 
+           
+           
+           
+           
+       });     
+            
+        
+        </script>  
+        
+    <!---Java Script For Show & Hide Menu/Toggle Menu--->
+    <script>
+          var menu = document.getElementById("navLinks");
+          
+        if (window.matchMedia("(min-width: 700px)").matches) {
+            
+              
+              menu.style.display = "block"; // Show menu
+        } 
+        
+        
+        else {
+          
+            menu.style.display = "none"; // Hide menu
+    
+        
+        }
+
+         function showMenu() {
+             
+             
+             document.querySelector('.navLinks').style.display = 'block';
+         }
+         
+        
+        function hideMenu() {
+             
+            
+            
+            document.querySelector('.navLinks').style.display = 'none';
+         
+        }
+     
+    
+    </script>
+    
+</body>
+</html>
+        
+        
+           
