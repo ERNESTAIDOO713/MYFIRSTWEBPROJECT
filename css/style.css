@@ -772,6 +772,11 @@ border: 3px solid purple;
     text-align: center;
 }
 
+.aboutUsCol p{
+
+ font-size:12px;
+    
+}
 
 .aboutUs p{
     
