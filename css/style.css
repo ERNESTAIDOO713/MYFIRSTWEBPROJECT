@@ -766,8 +766,7 @@ border: 3px solid purple;
     height: auto;
     object-fit: cover; /* Ensures image maintains aspect ratio */
     border-radius: 10px; /* Adds smooth edges */
-    position: relative;
-    top:20px;
+    margin-top: 20px;
 
 }
 
