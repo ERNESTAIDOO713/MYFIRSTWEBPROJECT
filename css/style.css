@@ -780,6 +780,7 @@ border: 3px solid purple;
     font-size: 1rem;
     color: #444;
     line-height: 1.6; /* Improves readability */
+    text-align: justify;
 }
 
 .aboutUs p {
@@ -788,6 +789,7 @@ border: 3px solid purple;
     color: darkgrey;
     max-width: 80%;
     margin: auto;
+
 }
 
 h1 {
@@ -823,7 +825,7 @@ p {
 .PUST p{
     
   line-height: 1.5;  
-  text-align: center;
+  text-align: justify;
   color: darkgrey;
   font-size: 14px; 
     
