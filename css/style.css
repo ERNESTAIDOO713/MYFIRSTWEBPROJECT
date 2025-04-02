@@ -767,7 +767,8 @@ border: 3px solid purple;
 }
 
 .aboutUsCol h1{
-   
+    
+    font-size: 18px;
     color: purple;
     text-align: center;
 }
