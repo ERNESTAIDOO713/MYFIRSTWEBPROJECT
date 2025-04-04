@@ -1034,16 +1034,20 @@ p {
        border-bottom: 1px solid #ddd; 
        padding-left: 20px; 
        position: relative; 
-
-}
+       
 
 .applySection  ul li::before { 
     
-    content: '\2022'; 
     color: #6a1b9a; 
     font-weight: bold; 
     position: absolute;
     left: 0; 
+    content: "✔";
+    margin-right: 10px;
+    
+
+
+
 
 }
 
