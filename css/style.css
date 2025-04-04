@@ -1015,8 +1015,8 @@ p {
 .applySection p{ 
     
    text-align: center; 
-   font-size: 16px; 
-   line-height: 1.6; 
+   font-size: 13px; 
+   line-height: 1.5; 
 
 }
 
@@ -1029,7 +1029,7 @@ p {
 
 .applySection  ul li { 
     
-       font-size: 16px; 
+       font-size: 13px; 
        padding: 10px 0; 
        border-bottom: 1px solid #ddd; 
        padding-left: 20px; 
@@ -1259,16 +1259,16 @@ p {
     width: 95%; 
     padding: 15px; }
 
-h1 {
+.applySection h1 {
     font-size: 22px;
 }
 
-h2 {
+.applySection h2 {
     font-size: 18px;
 }
 
-p, ul li {
-    font-size: 14px;
+.applySection p, ul li {
+    font-size: 10px;
 }
 
 }
