@@ -41,7 +41,7 @@
     text-align: center;
     color: red;
     position: relative;   
-    background-color: purple;
+
 }
 
 
@@ -163,7 +163,7 @@ nav ul li a:hover::after{
 
 .btn:hover{
     background-color: #bd4040;
-    color: purple;
+    color: darkpurple;
     border: 2px solid;
     transition: 1s;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -246,7 +246,7 @@ nav ul li a:hover::after{
 
 .course-btn{
     
- background-color: purple;    
+ background-color: darkpurple;    
  border: none;   
  color: black;   
  font-size: 18px;   
@@ -292,7 +292,7 @@ nav ul li a:hover::after{
 display: none;
 padding: 10px;
 background: #f9f9f9; 
-border: 3px solid purple;
+border: 3px solid darkpurple;
 
 
 }
@@ -300,7 +300,7 @@ border: 3px solid purple;
 .course-list p{
    
     font-size: 16px;
-    color: purple;
+    color: darkpurple;
     line-height: 1.5; 
     margin: 10px 0;
 
@@ -335,7 +335,7 @@ border: 3px solid purple;
 
 .Students h1{
     
-    color: purple;
+    color: darkpurple;
 }
 
 
@@ -398,7 +398,7 @@ border: 3px solid purple;
 
 .campus h1{
     
-    color: purple;
+    color: darkpurple;
 
 }
 
@@ -459,7 +459,7 @@ border: 3px solid purple;
 
 .facilities h1{
     
-    color: purple;
+    color: darkpurple;
 }
 
 
@@ -509,7 +509,7 @@ border: 3px solid purple;
 
 .testimonials h1{
     
-    color: purple;
+    color: darkpurple;
 }
 
 
@@ -527,7 +527,7 @@ border: 3px solid purple;
     
    border-radius: 10px;  
    box-sizing: border-box;
-   background-color: purple;
+   background-color: darkpurple;
    padding: 30px;  
    flex-basis: 44%;  
    margin-bottom: 5%;
@@ -578,7 +578,7 @@ border: 3px solid purple;
 
 .cta h1{
     
-   color: purple; 
+   color: darkpurple; 
    margin-bottom: 40px;  
    padding: 0; 
 }
@@ -666,7 +666,7 @@ border: 3px solid purple;
     
    font-size: 20px; 
    margin-bottom: 5px;  
-   color: purple; 
+   color: darkpurple; 
    font-size: 400; 
 
 }
@@ -722,7 +722,7 @@ border: 3px solid purple;
 .aboutUsCol h1{
     
     margin-top: 0px;
-    color: purple;
+    color: darkpurple;
     text-align: center;
 }
 
@@ -762,7 +762,7 @@ p{
  margin-top: 5px;   
  text-align: center;   
  font-size: 16px;  
- color: purple;
+ color: darkpurple;
     
 }
 
@@ -819,7 +819,7 @@ p{
 
 .blogleft h2{
  text-align: center;
-  color: purple;
+  color: darkpurple;
   font-weight: 400;   
   margin-top: 30px 0; 
     
@@ -835,7 +835,7 @@ p{
 
 .blogright h3{
   
-    background: purple;  
+    background: darkpurple;  
     color: #fff;
     padding: 7px 0;
     font-size: 14px;
@@ -906,7 +906,7 @@ p{
 
 .commentbox h3{
    
-   color: purple;
+   color: darkpurple;
    text-align: center;
    font-size: 20px; 
    margin-bottom: 15px;    
@@ -936,7 +936,7 @@ p{
 
 .commentbox .btn:hover{
     
-    background-color: purple;
+    background-color: darkpurple;
     
 }
 
@@ -960,7 +960,7 @@ p{
 
 .applySection h1,h2{
     
-   color: purple;
+   color: darkpurple;
    text-align: center;  
     
 }
