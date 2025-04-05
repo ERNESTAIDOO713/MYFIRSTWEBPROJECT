@@ -992,13 +992,14 @@ p{
 
 
 .applySection{
-    
-   margin: auto;
+   width:90%;
+   max-width: 600px;
+   margin:30px auto;
    background: white;
    padding: 20px; 
    font-size: 14px;
    color: darkgrey;
-
+   border-radius: 10px;
 }
 
 
