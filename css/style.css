@@ -52,10 +52,10 @@
 
 .logo-container{
     
-  background: rgba(255, 255, 255, 0.8);
-  padding: 5px 8px;
-  border-radius: 8px;
-  display: inline-block;
+  background-color: #6a0dad;
+  padding: 5px 12px;
+  border-radius: 10px;
+  display: flex;
 
 }
 
