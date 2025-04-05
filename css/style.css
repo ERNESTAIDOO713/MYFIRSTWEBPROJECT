@@ -61,8 +61,8 @@
 .logo{
     
     width: 70px;
-    height:auto;
-    mix-blend-mode: darken;
+    height: auto;
+    mix-blend-mode: purple;
 }
 
 .logo-text{
@@ -95,7 +95,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: #6a0dad;
+    color: peachpuff;
     text-decoration: none;
     font-size: 14px;
 }
