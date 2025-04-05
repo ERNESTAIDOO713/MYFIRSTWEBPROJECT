@@ -63,7 +63,7 @@
     
     width: 70px;
     height:auto;
-    mix-blend-mode: darken;
+    mix-blend-mode: #6a0dad;
 }
 
 .logo-text{
@@ -96,7 +96,7 @@ nav ul li{
 }
 
 nav ul li a{
-    color: black;
+    color: #6a0dad;
     text-decoration: none;
     font-size: 14px;
 }
@@ -231,7 +231,7 @@ nav ul li a:hover::after{
 }
 
 .courses p{
-    
+    font-weight: bold;
     color: #6a0dad;
     font-size: 16px;
     
