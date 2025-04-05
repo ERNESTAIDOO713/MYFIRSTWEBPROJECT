@@ -52,9 +52,8 @@
 
 .logo-container{
     
-  background-color: #6a0dad;
-  padding: 5px 12px;
-  border-radius: 10px;
+  color: #6a0dad;
+  padding: 5px;
   display: flex;
 
 }
@@ -1001,7 +1000,7 @@ ul{
     
     .textbox h1{
         
-        font-size: 42px;
+        font-size: 40px;
     
     }  
     
