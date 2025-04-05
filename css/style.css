@@ -62,14 +62,14 @@
     
     width: 70px;
     height: auto;
-    mix-blend-mode: purple;
+    mix-blend-mode: darken;
 }
 
 .logo-text{
     
    font-size: 20px; 
    font-weight: bold;   
-   color: purple;  
+   color: #6a0dad;  
 
 }
 
@@ -1002,7 +1002,7 @@ ul{
     
     .textbox h1{
         
-        font-size: 1.5em;
+        font-size: 42px;
     
     }  
     
