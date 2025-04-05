@@ -16,8 +16,7 @@
      background-size: cover;
      background-position: center;
      position: relative;
-     background-image:linear-gradient(rgba(238, 130,238,0.2), rgba(148,0,211,0.2)), url("../pustimages/3dUniversity.webp");
-
+     background-image: linear-gradient(to right, rgba(75, 0, 130, 0.8), rgba(106, 13, 173, 0.7)), url("../pustimages/3dUniversity.webp");   
 
 }
 
@@ -35,7 +34,7 @@
     
     min-height: 50vh;
     width: 100%;
-    background-image:linear-gradient(rgba(238, 130,238,0.2), rgba(148,0,211,0.2)), url("../pustimages/3dUniversity.webp");
+    background-image: linear-gradient(to right, rgba(75, 0, 130, 0.8), rgba(106, 13, 173, 0.7)), url("../pustimages/3dUniversity.webp");
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -63,14 +62,14 @@
     
     width: 70px;
     height:auto;
-    mix-blend-mode: #6a0dad;
+    mix-blend-mode: darken;
 }
 
 .logo-text{
     
    font-size: 20px; 
    font-weight: bold;   
-   color: #6a0dad;  
+   color: purple;  
 
 }
 
