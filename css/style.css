@@ -993,7 +993,7 @@ p{
 
 .applySection{
    
-    width:90%;
+   width:90%;
    max-width: 800px;
    margin:30px auto;
    background: white;
@@ -1001,8 +1001,9 @@ p{
    font-size: 14px;
    color: darkgrey;
    border-radius: 10px;
-   border: 2px solid black;
-
+   border: 1px solid black;
+   font-family: sans-serif;
+  
 }
 
 
