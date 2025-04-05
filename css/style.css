@@ -586,91 +586,42 @@ border: 3px solid purple;
 
 /*Footer*/
 
-.footer{
-    
-    background-color: purple;
-    color: white;
-    text-align: center;    
-    padding: 20px 10px;
-    font-family: 'sans-serif';
+.site-footer {
+ 
+  background-color: #6a0dad;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
 
 }
 
-.aboutUsHeading{
-    
-    font-size: 18px; 
-    font-weight: bold;
-    margin-bottom: 10px;
-    
+.site-footer a {
+ 
+  color: white;
+  text-decoration: none;
 }
 
-.footer-text{
-    
-    font-size: 12px;
-    margin-bottom: 15px; 
-    opacity: 0.9;
-    
+.site-footer a:hover {
+  
+    text-decoration: underline;
 }
 
-
-
-/*Social Media Icons*/
-
-
-.icons{
-    
-   margin: 10px;
-    
-    
+.footer-actions {
+  
+    margin-bottom: 20px;
 }
 
-
-
-.icons a{
-    
-    color: white; 
-    margin: 0 10px;
-    cursor: pointer;
-    font-size: 20px;
-    transition: color 0.3s ease-in-out; 
-    text-decoration: none; 
-
+ 
+.footer-socials a {
+  margin: 0 10px;
+  font-size: 20px;
 }
 
+.footer-copy {
+  margin-top: 15px;
+  font-size: 14px;
 
-
-.icons a: hover{
-    
-   color: #ffcc00; 
-    
 }
-
-
-
-
-
-.Copyright{
-    
-    
-   font-size: 14px; 
-   opacity: 0.8; 
-   margin-top: 15px; 
-    
-    
-}
-
-
-.Copyright i{
-    
-    
- margin-right: 2px;   
- color: white;   
- vertical-align: middle;
-    
-}
-
-
-
 
 /*Contact*/
 
