@@ -333,6 +333,7 @@ border: 3px solid #6a0dad;
 .Students h1{
     
     color: #6a0dad;
+
 }
 
 
@@ -348,7 +349,8 @@ border: 3px solid #6a0dad;
 
 
 .StudentsCol img{
-   
+    
+    border: 2px solid #6a0dad;
     width: 100%;
     cursor: pointer;
     transition: transform 0.3s ease,
@@ -378,6 +380,7 @@ border: 3px solid #6a0dad;
    text-align: center; 
    margin: auto; 
    padding: 50px;
+
 }
 
 
@@ -401,10 +404,11 @@ border: 3px solid #6a0dad;
 
 
 .campusCol img{
-
+   border: 2px solid #6a0dad;
    width: 100%; 
    cursor: pointer;
    display:block;
+
 }
 
 .base{
@@ -471,7 +475,7 @@ border: 3px solid #6a0dad;
 
 
 .facilitiesCol img{
-    
+    border: 2px solid #6a0dad;
     width: 100%;
     border-radius: 10px;
     cursor: pointer;
@@ -561,7 +565,8 @@ border: 3px solid #6a0dad;
 
 
 .cta{
-    
+  
+   border: 2px solid #6a0dad;
    margin: 100px auto; 
    width: 80%;  
    background-image: url(../pustimages/banner2.jpg);
@@ -570,7 +575,7 @@ border: 3px solid #6a0dad;
    border-radius: 10px; 
    text-align: center;
    padding: 100px 0;
-
+   
 }
 
 .cta h1{
@@ -710,7 +715,8 @@ border: 3px solid #6a0dad;
 }
 
 .aboutUsCol img{
-   
+  
+    border: 2px solid #6a0dad;
     justify-content: justify;
     width: 100%;
     
@@ -794,7 +800,7 @@ p{
 }
 
 .blogleft img{
-    
+  border: 2px solid #6a0dad;
   width: 60%;  
   display: block;
   margin:0 auto;
@@ -949,7 +955,7 @@ p{
    font-size: 14px;
    color: darkgrey;
    border-radius: 10px;
-   border: 1px solid black;
+   border: 2px solid #6a0dad;
    font-family: sans-serif;
   
 }
@@ -971,7 +977,8 @@ ul{
 
 
 .applySection img{
-    
+   
+  border: 2px solid #6a0dad;
   width: 60%;  
   display: block;
   margin:0 auto;
