@@ -964,21 +964,8 @@ p{
     
 }
 
-
-ul{
-    text-align: justify;
-    padding: 15px;
-    line-height: 1.5;
-}
-
-strong{
-
-    color:#6a0dad;
-}
-
-
 .applySection img{
-   border-radius: 5px;
+  border-radius: 5px;
   border: 2px solid #6a0dad;
   width: 60%;  
   display: block;
@@ -988,8 +975,6 @@ strong{
 
 }
 
-
-
 .applyNow{
     
     font-size: 14px;
@@ -997,6 +982,55 @@ strong{
 
 }
 
+ p {
+    text-align: center; 
+    font-size: 14px; 
+    line-height: 1.5; 
+ }
+
+ul { 
+    
+    list-style: none; 
+    padding: 0; 
+}
+
+ul li { 
+       font-size: 16px; 
+       padding: 10px 0; 
+       border-bottom: 1px solid #ddd; 
+       padding-left: 20px; 
+       position: relative;
+
+}
+
+ul li::before { 
+        
+        content: '\2022'; 
+        color: #6a1b9a; 
+        font-weight: bold;
+        position: absolute;
+        left: 0; 
+
+     }
+
+strong { 
+    
+    color: #6a1b9a; 
+}
+
+a { 
+    
+   color: #6a1b9a; 
+   text-decoration: none; 
+   font-weight: bold; 
+  
+}
+
+a:hover { 
+   
+    text-decoration: underline; 
+
+}
 
 
 /*Mobile View(Responsiveness)*/
