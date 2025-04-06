@@ -982,20 +982,21 @@ p{
 
 }
 
- p {
+ .applySection p {
     text-align: center; 
     font-size: 14px; 
     line-height: 1.5; 
  }
 
-ul { 
+.applySection ul { 
     
     list-style: none; 
     padding: 0; 
 }
 
-ul li { 
-       font-size: 16px; 
+.applySection ul li { 
+       
+       font-size: 14px; 
        padding: 10px 0; 
        border-bottom: 1px solid #ddd; 
        padding-left: 20px; 
@@ -1003,9 +1004,9 @@ ul li {
 
 }
 
-ul li::before { 
+.applySection ul li::before { 
         
-        content: '\2022'; 
+        content:'\2022'; 
         color: #6a1b9a; 
         font-weight: bold;
         position: absolute;
@@ -1013,12 +1014,12 @@ ul li::before {
 
      }
 
-strong { 
+.applySection strong { 
     
     color: #6a1b9a; 
 }
 
-a { 
+.applySection a { 
     
    color: #6a1b9a; 
    text-decoration: none; 
@@ -1026,7 +1027,7 @@ a {
   
 }
 
-a:hover { 
+.applySection a:hover { 
    
     text-decoration: underline; 
 
