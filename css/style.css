@@ -140,7 +140,7 @@ nav ul li a:hover::after{
    display: inline-block;
    justify-content: center; 
     color: black;
-    border: 3px solid black;
+    border: 1px solid black;
     padding: 12px 34px;
     cursor: pointer;
     text-decoration: none;
@@ -155,7 +155,7 @@ nav ul li a:hover::after{
 .btn:hover{
     background-color: #bd4040;
     color: #6a0dad;
-    border: 2px solid;
+    border: 1px solid;
     transition: 1s;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -165,7 +165,7 @@ nav ul li a:hover::after{
 
 .redbtn{
 
-  border: 2px solid;
+  border: 1px solid;
   background: transparent;
   color: black;
   font-weight: bold;
@@ -537,7 +537,7 @@ border: 3px solid #6a0dad;
 
 
 .testimonialsCol img{
-  border: 2px solid #6a0dad;
+
    height: 60px; 
    margin-left: 5px; 
    margin-right: 30px; 
@@ -1079,7 +1079,7 @@ ul{
     
     font-size: 14px;
     padding: 12px;
-    width: 90%;
+    width: 98%;
   
   }
     
@@ -1109,49 +1109,7 @@ ul{
     }
 
 
-    .footer{
-        
-       padding: 15px 10px; 
-        
-        
-        
-    }
     
-    
-    .footer-text{
-        
-        font-size: 10px;
-        
-    }
-    
-    
-    
-    .aboutUsHeading{
-        
-        
-        font-size: 16px;
-    }
-
-
-    .icons a{
-        
-        font-size: 18px; 
-        margin: 0 8px;
-    
-    
-    }
-
-
-    .Copyright{
-        
-        font-size: 12px;
-        
-    }
-    
-    
-
-    }
-
 
 
 
