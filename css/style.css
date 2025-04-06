@@ -49,28 +49,22 @@
     color: peachpuff;
 }
 
-
-.logo-container{
-    
-  color: #6a0dad;
-  padding: 5px;
-  display: flex;
-
-}
-
-.logo{
-    
-    width: 70px;
-    height: auto;
-}
-
-.logo-text{
+.logo-text {
   
-  color: peachpuff;
+  width: 80px;
+  height: 80px;
+  background-color: #6a0dad; /* PUST theme purple */
+  color: white;
   font-weight: bold;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
-}
+  font-size: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 
+}
 
 /*Navigation Bar*/
 
