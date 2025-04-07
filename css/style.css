@@ -770,7 +770,7 @@ p{
 
 .PUST p{
     
-  line-height: 1.5;  
+  line-height: 1.4;  
   text-align: justify;
   color: darkgrey;
   font-size: 14px; 
@@ -1001,7 +1001,7 @@ p{
        border-bottom: 1px solid #ddd; 
        padding-left: 20px; 
        position: relative;
-
+       text-align: justify;
 }
 
 .applySection ul li::before { 
@@ -1148,10 +1148,18 @@ p{
     }
 
 
+    .PUST p{
     
+   line-height: 1.2;  
+   text-align: justify;
+   color: darkgrey;
+   font-size: 12px; 
+    
+    
+    }
 
 
-
+}
 
 
 
