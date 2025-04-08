@@ -311,7 +311,7 @@ border: 3px solid #6a0dad;
 
 .applyNow p{
     
-    color: darkgray;
+    color: #555555;
     font-size: 14px;
     margin-top: 10px;
 
@@ -362,7 +362,7 @@ border: 3px solid #6a0dad;
     margin-top: 16px; 
     margin-bottom: 15px; 
     text-align: center;
-    color: darkgrey;
+    color: #555555;
 
 
 }
@@ -491,7 +491,7 @@ border: 3px solid #6a0dad;
     margin-top: 16px; 
     margin-bottom: 15px; 
     text-align: center;
-    color: darkgray;
+    color: #555555;
 }
 
 /*Testimonials*/
@@ -513,7 +513,7 @@ border: 3px solid #6a0dad;
 
 .testimonials p{
     
-    color: darkgray;
+    color: #555555;
     font-size: 14px;
     
 }
@@ -674,7 +674,7 @@ border: 3px solid #6a0dad;
     
     font-size: 20px; 
     margin-bottom: 5px;
-    color: darkgray;
+    color: #555555;
     font-weight: 500;
 
 } 
@@ -741,7 +741,7 @@ border: 3px solid #6a0dad;
     
     font-size: 14px;
     text-align: justify;
-    color: darkgrey;
+    color: #555555;
 }
 
 h1{
@@ -782,7 +782,7 @@ p{
     
   line-height: 1.4;  
   text-align: justify;
-  color: darkgrey;
+  color: #555555;
   font-size: 14px; 
     
     
@@ -963,7 +963,7 @@ p{
 .application-container p{
     text-align:justify;
     font-size:14px;
-    color: darkgrey;
+    color: #555555;
 }
 
 .application-container {                   
@@ -995,7 +995,7 @@ p{
     padding-left: 20px; 
     position: relative;
     font-size: 14px;
-    color: darkgrey;
+    color: #555555;
 }
 
 .application-container li::before { 
@@ -1159,7 +1159,7 @@ p{
     
    line-height: 1.2;  
    text-align: justify;
-   color: darkgrey;
+   color: #555555;
    font-size: 12px; 
     
     
