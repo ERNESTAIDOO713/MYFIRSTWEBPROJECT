@@ -661,11 +661,12 @@ border: 3px solid #6a0dad;
 }
 
 
-.contactcol div p{
+.contactcol div h6{
     
     font-size: 14px; 
-    margin: 10px 0;
+    margin-bottom: 5px;
     color: darkgrey;
+    font-weight: 500;
 } 
     
 
