@@ -648,6 +648,8 @@ border: 3px solid #6a0dad;
     
     flex-basis: 48%;
     margin-bottom: auto;
+    gap: 15px;
+    
     
     
 }
