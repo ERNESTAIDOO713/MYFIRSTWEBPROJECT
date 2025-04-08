@@ -672,9 +672,9 @@ border: 3px solid #6a0dad;
 
 .contactcol div h6{
     
-    font-size: 14px; 
+    font-size: 20px; 
     margin-bottom: 5px;
-    color: black;
+    color: darkgray;
     font-weight: 500;
 
 } 
@@ -683,7 +683,7 @@ border: 3px solid #6a0dad;
 .contactcol input, .contactcol textarea{
     
   width: 100%;  
-  padding: 15px;  
+  padding: 25px;  
   margin-bottom: 17px;    
   outline: none;  
   border: 2px solid black;  
