@@ -963,16 +963,18 @@ p{
 .application-container p{
     text-align:justify;
     font-size:14px;
+    color: darkgrey;
 }
 
 .application-container {                   
+   
     width: 100%;
     max-width: 700px; 
     margin: 0 auto; 
     padding: 40px 20px; 
     background-color: #f9f9f9; 
     border-radius: 8px; 
-    border: 2px solid #6a0dad;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
                       
 }
 
@@ -993,7 +995,7 @@ p{
     padding-left: 20px; 
     position: relative;
     font-size: 14px;
-
+    color: darkgrey;
 }
 
 .application-container li::before { 
