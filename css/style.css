@@ -661,15 +661,13 @@ border: 3px solid #6a0dad;
 }
 
 
-.contactcol div ul li{
+.contactcol div p{
     
     font-size: 14px; 
-    padding: 10px 0;  
-    padding-left: 10px; 
-    position: relative;
-    text-align: justify;
-    color: #6a0dad;
-}
+    margin: 5px 0;
+    color: darkgrey;
+} 
+    
 
 .contactcol input, .contactcol textarea{
     
