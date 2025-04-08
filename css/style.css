@@ -945,33 +945,8 @@ p{
 
 .commentbox .btn:hover{
     
-    background-color: #6a0dad;
-    
-}
+    background-color:#6a0dad;
 
-
-
-.applySection{
-   
-   width:90%;
-   max-width: 800px;
-   margin:30px auto;
-   background: white;
-   padding: 20px; 
-   font-size: 14px;
-   color: darkgrey;
-   border-radius: 10px;
-   border: 2px solid #6a0dad;
-   font-family: sans-serif;
-  
-}
-
-
-.applySection h1,h2{
-    
-   color: #6a0dad;
-   text-align: center;  
-    
 }
 
 .applySection img{
@@ -985,62 +960,77 @@ p{
 
 }
 
-.applyNow{
-    
-    font-size: 14px;
-    margin-top: 6px;
+
+
+.application-container { 
+                        
+    max-width: 800px; 
+    margin: 0 auto; 
+    padding: 40px 20px; 
+    background-color: #f9f9f9; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+                      
+}
+
+.application-container h2 { 
+    color: #6a0dad;
+    text-align: center; 
+    margin-bottom: 30px;
 
 }
 
- .applySection p {
-    text-align: center; 
-    font-size: 14px; 
-    line-height: 1.5; 
- }
-
-.applySection ul { 
-    
+.application-container ul { 
     list-style: none; 
     padding: 0; 
 }
 
-.applySection ul li { 
-       
-       font-size: 14px; 
-       padding: 10px 0; 
-       border-bottom: 1px solid #ddd; 
-       padding-left: 20px; 
-       position: relative;
-       text-align: justify;
+.application-container li { 
+    margin-bottom: 20px; 
+    padding-left: 20px; 
+    position: relative;
 }
 
-.applySection ul li::before { 
-        
-        content:'\2022'; 
-        color: #6a1b9a; 
-        font-weight: bold;
-        position: absolute;
-        left: 0; 
+.application-container li::before { 
+            content: '\2022'; 
+            color: #6a0dad; 
+            font-weight: bold; 
+            display: inline-block;
+            width: 1em; 
+            margin-left: -1em; 
+ }
 
-     }
-
-.applySection strong { 
+.application-container a {
     
-    color: #6a1b9a; 
-}
-
-.applySection a { 
-    
-   color: #6a1b9a; 
-   text-decoration: none; 
-   font-weight: bold; 
-  
-}
-
-.applySection a:hover { 
-   
+    color: #6a0dad; 
     text-decoration: underline; 
+}
 
+.application-container a:hover { 
+    color: #5e009e; 
+}
+
+.application-container .note { 
+       font-size: 0.9em; 
+       color: #555;
+       display: block; 
+       margin-top: 5px; 
+}
+
+.application-container .deadlines li { 
+    margin-bottom: 10px; 
+}
+
+.application-container .contact {
+          margin-top: 40px; 
+          font-size: 1em; 
+          text-align: center; 
+          color: #333;
+}
+
+.application-container .contact a { 
+            font-weight: bold; 
+            color: #6a0dad;
 }
 
 
@@ -1167,6 +1157,26 @@ p{
     
     
     }
+
+.application-container { 
+   
+    padding: 20px 10px; 
+                      
+      } 
+    
+    .application-container h2 { 
+        font-size: 1.5em; 
+    } 
+    
+    .application-container contact { 
+        font-size: 0.95em;
+    } 
+
+
+
+  
+
+
 
 
 }
