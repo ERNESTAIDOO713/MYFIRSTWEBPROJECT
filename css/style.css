@@ -664,7 +664,7 @@ border: 3px solid #6a0dad;
 .contactcol div p{
     
     font-size: 14px; 
-    margin: 5px 0;
+    margin: 10px 0;
     color: darkgrey;
 } 
     
@@ -683,7 +683,7 @@ border: 3px solid #6a0dad;
 .contactUs i{
     
     font-size: 28px; 
-    color: darkgrey;
+    color: #6a0dad;
     margin: 10px;
     margin-right: 30px; 
     cursor: pointer;
