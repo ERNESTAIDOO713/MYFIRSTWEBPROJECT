@@ -654,6 +654,13 @@ border: 3px solid #6a0dad;
     
 }
 
+.contactcol:first-child {
+  
+    margin-right: 50px;
+
+
+}
+
 .contactcol div{
     
     display: flex;
@@ -667,8 +674,9 @@ border: 3px solid #6a0dad;
     
     font-size: 14px; 
     margin-bottom: 5px;
-    color: darkgrey;
+    color: black;
     font-weight: 500;
+
 } 
     
 
