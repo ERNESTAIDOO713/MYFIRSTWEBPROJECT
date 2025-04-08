@@ -966,7 +966,8 @@ p{
 }
 
 .application-container {                   
-    max-width: 800px; 
+    width: 100%;
+    max-width: 700px; 
     margin: 0 auto; 
     padding: 40px 20px; 
     background-color: #f9f9f9; 
@@ -1164,7 +1165,7 @@ p{
 
 .application-container { 
    
-    padding: 20px 10px; 
+    padding: 30px 15px; 
                       
       } 
     
@@ -1175,11 +1176,6 @@ p{
     .application-container .contact { 
         font-size: 12px;
     } 
-
-
-
-  
-
 
 
 
