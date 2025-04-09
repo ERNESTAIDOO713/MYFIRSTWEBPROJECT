@@ -513,7 +513,7 @@ border: 3px solid #6a0dad;
 
 .testimonials p{
     
-    color: white;
+    color: #555555;
     font-size: 14px;
     
 }
@@ -546,7 +546,7 @@ border: 3px solid #6a0dad;
     
     
 .testimonialsCol p{
-    
+    color: white;
     padding: 0;
     text-align: left;  
     
