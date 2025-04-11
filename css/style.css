@@ -771,7 +771,7 @@ p{
 .PUST h1{
  margin-top: 5px;   
  text-align: center;   
- font-size: 16px;  
+ font-size: 15px;  
  color: #6a0dad;
     
 }
@@ -1154,7 +1154,13 @@ p{
         
     }
 
+.PUST h1{
+    
+    font-size:14px;
 
+}
+
+    
     .PUST p{
     
    line-height: 1.2;  
