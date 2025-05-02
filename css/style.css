@@ -226,7 +226,7 @@ nav ul li a:hover::after{
     line-height: 1.5;
     font-weight: 300;
     color: #6a0dad;
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify; 
 }
 
@@ -1116,8 +1116,8 @@ p{
 
     .courses p{
         
-       font-size: 12px; 
-       line-height: 1.2;
+       font-size: 14px; 
+       line-height: 1.4;
        text-align: justify;
         
     }
