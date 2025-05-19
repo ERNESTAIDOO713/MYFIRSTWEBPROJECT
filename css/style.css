@@ -1190,7 +1190,21 @@ p{
 
 }
 
+@media (max-width:430px){
 
+.contactcol input, .contactcol textarea{
+    
+  width: 96%;  
+  padding: 25px;  
+  margin-bottom: 17px;    
+  outline: none;  
+  border: 2px solid black;  
+  box-sizing: border-box;
+
+}
+
+    
+}
 
     
 
