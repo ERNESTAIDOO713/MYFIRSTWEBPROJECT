@@ -1203,8 +1203,29 @@ p{
 
 }
 
-    
+ .header{
+   
+     height: 90vh; /* reduce from 100vh */
+  }
+  
+    .subheader {
+   
+      height: 45vh; /* reduce from 50vh */
+  }
+ 
+.textbox{
+
+    top: 50%
 }
+
+
+} 
+
+
+
+
+
+
 
     
 
