@@ -642,6 +642,7 @@ border: 3px solid #6a0dad;
     
    width: 80%; 
    margin: auto; 
+   box-sizing: border-box;
     
 }
 
@@ -1215,10 +1216,25 @@ p{
  
 .textbox{
 
-    top: 50%
+    top: 60%
 }
 
+.testimonialsCol{
 
+    padding: 25px;
+}
+
+.PUST p{
+    
+  line-height: 1.3;  
+  text-align: justify;
+  color: #555555;
+  font-size: 12px; 
+    
+    
+}
+
+    
 } 
 
 
