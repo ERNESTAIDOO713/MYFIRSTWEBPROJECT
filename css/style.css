@@ -633,8 +633,7 @@ border: 3px solid #6a0dad;
 }
 
 .contactUs{
-    
-   position: fixed;
+  
    width: 80%; 
    margin: auto; 
 }
@@ -1184,17 +1183,6 @@ p{
 }
 
 @media (max-width:430px){
-
-.contactcol input, .contactcol textarea{
-    
-  width: 90%;  
-  padding: 15px;  
-  margin-bottom: 17px;    
-  outline: none;  
-  border: 1px solid black;  
-  box-sizing: border-box;
-
-}
 
  .header{
    
