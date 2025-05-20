@@ -680,9 +680,8 @@ border: 3px solid #6a0dad;
   padding: 25px;  
   margin-bottom: 17px;    
   outline: none;  
-  border: 2px solid black;  
+  border: 1px solid black;  
   box-sizing: border-box;
-  position: fixed;
 
 }
 
