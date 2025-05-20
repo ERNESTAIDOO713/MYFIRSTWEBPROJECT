@@ -636,8 +636,6 @@ border: 3px solid #6a0dad;
     
    width: 80%; 
    margin: auto; 
-   box-sizing: border-box;
-   position: fixed;
 }
 
 .contactcol{
