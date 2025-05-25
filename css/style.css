@@ -674,8 +674,8 @@ border: 3px solid #6a0dad;
 
 .contactcol input, .contactcol textarea{
     
-  width: 100%;  
-  padding: 25px;  
+  width: calc(100% - 20px);  
+  padding: 12px 10px;  
   margin-bottom: 17px;    
   outline: none;  
   border: 1px solid black;  
