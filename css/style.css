@@ -103,56 +103,6 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-
-/*Button*/
-
-.btn{
-
-   display: inline-block;
-   justify-content: center; 
-    color: black;
-    border: 1px solid black;
-    padding: 12px 34px;
-    cursor: pointer;
-    text-decoration: none;
-    background: transparent;
-    font-size: 13px;
-    font-weight: bold;
-    position: relative;
-    margin-top: 0px;
-}
- 
-
-.btn:hover{
-    background-color: #bd4040;
-    color: #6a0dad;
-    border: 1px solid;
-    transition: 1s;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-
-/*Red Button*/
-
-.redbtn{
-
-  border: 1px solid;
-  background: transparent;
-  color: black;
-  font-weight: bold;
-  justify-content: center;
-
-
-}
-    
-.redbtn: hover{
-    
-   color: red; 
-    
-    
-}
-
-
 /*Hide and Show Menu Icons*/
 
 .fa-solid.fa-square-xmark{
@@ -328,7 +278,7 @@ border: 3px solid #6a0dad;
 }
 .testimonial-container{
   background-color:#6a0dad;
-    
+  margin-top: 50px; 
 }
 
 .container {
@@ -342,7 +292,7 @@ border: 3px solid #6a0dad;
 
 /* Specific Section Backgrounds (optional, for visual variety) */
 .welcome-section {
-    margin-top: 50px;
+    
     background-color: #6a0dad;/*dark purple*/
     padding-top: 80px; /* More padding if it's a hero-like section */
     padding-bottom: 80px;
