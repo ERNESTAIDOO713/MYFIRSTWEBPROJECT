@@ -463,7 +463,7 @@ img {
 /* Media Queries for Responsiveness */
 
 /* For smaller screens (e.g., mobile phones, max-width 767px) */
-@media (max-width: 767px) {
+@media (max-width: 430px) {
     .container {
         padding: 0 10px; /* Reduce horizontal padding */
     }
