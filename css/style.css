@@ -698,7 +698,7 @@ border: 3px solid #6a0dad;
 /*About Us*/
 
 /* Container for content width and centering */
-.container {
+.about-page .container {
     max-width: 960px; /* Max width for larger screens */
     margin: 0 auto; /* Center the container horizontally */
     padding: 0 15px; /* Horizontal padding for smaller screens */
@@ -758,7 +758,7 @@ img {
 
 /* For screens smaller than 768px (mobile-first approach) */
 @media (max-width: 430px) {
-    .container {
+    -abou-page .container {
         padding: 0 10px; /* Slightly less padding on very small screens */
     }
 
@@ -782,7 +782,7 @@ img {
 
 /* For screens 768px and up (tablets and desktops) */
 @media (min-width: 768px) {
-    .container {
+    .about-page .container {
         padding: 0 20px;
     }
 }
