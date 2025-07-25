@@ -308,7 +308,7 @@ rgba(0,0,0,0.05);
 }
 
 .cta { /* Darker background for CTA */
-    color: peachpuff;
+    background-color: #6a0dad;
     text-align: center;
     padding: 90px 0;
 }
