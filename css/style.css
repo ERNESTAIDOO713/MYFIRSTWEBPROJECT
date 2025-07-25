@@ -995,19 +995,7 @@ img {
 /*Mobile View(Responsiveness)*/
 
 /*Mobile Phones*/
-@media (max-width: 768px) {
-    
-    
-    
-    .textbox h1{
-        
-        font-size: 20px;
-    
-    }  
-    
-    .textbox p{
-        font-size: 12px;
-    }
+@media (max-width: 768px) {   
     
     nav ul li{
         display: block;
@@ -1039,25 +1027,9 @@ img {
     }
  
 
-    .row{
-        
-        flex-direction: column;    
-        
-    }
     
-
-    .testimonialsCol img{
-        
-        margin-left: 0px; 
-        margin-right: 15px;
-    }
     
-    .cta h1{
-        
-       font-size: 24px; 
-        
-    }
-
+   
     .courseCol{
         
         flex-basis: 100%;
@@ -1081,21 +1053,7 @@ img {
   }
     
 
-  .cta{
-        
-        
-        width: 90%;
-    
-    
-    }
-    
-    
-    .cta h1{
-        
-        
-        font-size: 24px;
-    }
-
+  
     
     .blogleft p{
         
@@ -1157,10 +1115,6 @@ img {
     top: 65%
 }
 
-.testimonialsCol{
-
-    padding: 20px;
-}
 
 .course-list p{
    
