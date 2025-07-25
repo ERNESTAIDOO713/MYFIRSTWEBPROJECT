@@ -697,90 +697,95 @@ border: 3px solid #6a0dad;
 
 /*About Us*/
 
-.aboutUS{
-    
-    width: 80%;
-    margin:auto;
-    padding-top: 80px; 
-    padding-bottom: 50px; 
+/* Container for content width and centering */
+.container {
+    max-width: 960px; /* Max width for larger screens */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 15px; /* Horizontal padding for smaller screens */
+    box-sizing: border-box; /* Include padding in element's total width */
 }
 
-
-.aboutUsCol{
-    
-  flex-basis: 48%;  
-  padding: 30px 2px;  
-  text-align: center;  
-    
+/* Padding for sections */
+section {
+    padding: 40px 0; /* Vertical padding for each section */
+    background-color: #fff; /* White background for content sections */
+    margin-bottom: 20px; /* Space between sections */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Subtle shadow for depth */
+    border-radius: 8px;
 }
 
-.aboutUsCol img{
-    border-radius: 5px;
-    border: 2px solid #6a0dad;
-    justify-content: justify;
-    width: 100%;
-    
+/* Specific content wrapper if needed for more internal padding */
+.content-wrapper {
+    padding: 20px; /* Inner padding within the container */
 }
 
-.aboutUsCol h1{
-    
-    margin-top: 0px;
-    color: #6a0dad;
+/* Headings */
+.section-title { /* For your main H1 */
+    font-size: 2.2em; /* Larger for the main title */
+    text-align: center;
+    margin-bottom: 1em;
+    color: #0056b3; /* Example color */
+}
+
+.section-heading { /* For your H2s */
+    font-size: 1.8em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    color: #0056b3; /* Example color */
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1em; /* Space between paragraphs */
+}
+
+/* Images */
+img {
+    max-width: 100%; /* Ensures images are responsive */
+    height: auto;
+    display: block; /* Removes extra space below image */
+    margin: 20px auto; /* Center image and add vertical spacing */
+    border-radius: 5px; /* Slightly rounded corners for images */
+}
+
+/* Utility class for centering text */
+.text-center {
     text-align: center;
 }
 
 
-.aboutUs p{
-    
-    font-size: 14px;
-    text-align: justify;
-    color: #555555;
+/* Media Queries for different screen sizes */
+
+/* For screens smaller than 768px (mobile-first approach) */
+@media (max-width: 430px) {
+    .container {
+        padding: 0 10px; /* Slightly less padding on very small screens */
+    }
+
+    section {
+        padding: 30px 0; /* Reduce vertical padding on smaller screens */
+        margin-bottom: 15px;
+    }
+
+    .section-title {
+        font-size: 1.8em;
+    }
+
+    .section-heading {
+        font-size: 1.5em;
+    }
+
+    .content-wrapper {
+        padding: 15px;
+    }
 }
 
-h1{
-    
-    margin-top: 40px; 
+/* For screens 768px and up (tablets and desktops) */
+@media (min-width: 768px) {
+    .container {
+        padding: 0 20px;
+    }
 }
-
-
-p{
-    
-  padding: 15px 0px 25px;  
-  text-align: center;   
-    
-}
-
-
-.PUST{
-    
-   padding-top: 10px;
-   width: 60%; 
-   margin: auto; 
-   text-align: center; 
-
-}
-    
-
-.PUST h1{
- margin-top: 5px;   
- text-align: center;   
- font-size: 18px;  
- color: #6a0dad;
-    
-}
-
-
-
-.PUST p{
-    
-  line-height: 1.2; 
-  text-align: justify;
-  color: #555555;
-  font-size: 16px; 
-    
-    
-}
-
 
 
 /*Blog*/
