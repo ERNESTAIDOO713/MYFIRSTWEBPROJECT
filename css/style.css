@@ -219,7 +219,7 @@ nav ul li a:hover::after{
 
 .courses p{
     
-    line-height: 1.5;
+    line-height: 1.4;
     font-weight: 300;
     color: #6a0dad;
     font-size: 16px;
@@ -290,7 +290,7 @@ border: 3px solid #6a0dad;
    
     font-size: 14px;
     color: #6a0dad;
-    line-height: 1.2; 
+    line-height: 1.1; 
     margin: 10px 0;
     text-align: center;
 
@@ -773,7 +773,7 @@ p{
 
 .PUST p{
     
- line-height: 1.2; 
+  line-height: 1.2; 
   text-align: justify;
   color: #555555;
   font-size: 16px; 
@@ -1204,6 +1204,15 @@ p{
     padding: 20px;
 }
 
+.course-list p{
+   
+    font-size: 14px;
+    line-height:1.1;
+   
+
+}    
+        
+    
 .PUST p{
     
   line-height: 1.2
