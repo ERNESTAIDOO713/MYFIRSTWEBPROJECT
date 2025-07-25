@@ -307,9 +307,8 @@ rgba(0,0,0,0.05);
     margin-top: 50px; 
 }
 
-.cta {
-    background-color: #6a0dad; /* Darker background for CTA */
-    color: #fff; /* White text on dark background */
+.cta { /* Darker background for CTA */
+    color: peachpuff;
     text-align: center;
     padding: 90px 0;
 }
