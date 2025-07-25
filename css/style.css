@@ -224,7 +224,7 @@ border: 3px solid #6a0dad;
     color: #555555;
     font-size: 14px;
     margin-top: 10px;
-
+    font-family: 'Sans-serif';   
 }
 
 .Students{
@@ -349,6 +349,7 @@ p.text-center {
     max-width: 800px; /* Keep paragraph lines readable even when centered */
     margin-left: auto;
     margin-right: auto;
+    font-family: sans-serif;
 }
 
 /* Buttons */
