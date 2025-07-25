@@ -339,7 +339,8 @@ border: 3px solid #6a0dad;
 
 /* Specific Section Backgrounds (optional, for visual variety) */
 .welcome-section {
-    background-color: #e0f2f7; /* Light blue for welcome */
+    top: 55%;
+    background-color: ; #6a0dad/*dark purple*/
     padding-top: 80px; /* More padding if it's a hero-like section */
     padding-bottom: 80px;
 }
