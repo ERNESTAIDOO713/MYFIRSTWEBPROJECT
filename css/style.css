@@ -652,6 +652,7 @@ section {
 /* Paragraphs */
 p {
     margin-bottom: 1em; /* Space between paragraphs */
+    font-family: 'Sans-serif';   
 }
 
 /* Images */
@@ -1038,7 +1039,7 @@ img {
    text-align: justify;
    color: #555555;
    font-size: 16px; 
-    
+
     
     }
 
