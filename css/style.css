@@ -103,31 +103,6 @@ nav ul li a:hover::after{
     width: 100%;
 }
 
-/*TextBox*/
-
-.textbox{
-   
-    text-align: center;
-    color : white;
-    position: absolute;
-    transform: translate(-50%, -50%);   
-    left: 50%;
-    top: 55%;    
-    width: 90%; 
-
-}
-
-.textbox h1{
-    
-    font-size: 24px;
-    color: peachpuff;
-}
-
-.textbox p{
-    font-size: 14px;
-    margin-bottom: 5px;
-    color: white;
-}
 
 /*Button*/
 
@@ -187,18 +162,6 @@ nav ul li a:hover::after{
 
 .fa-solid.fa-bars{
     display: none;
-}
-
-
-/*Row*/
-
-.row{
-    
-   display: flex; 
-   justify-content: space-around;
-   margin-top: 5%; 
-   flex-wrap: wrap;
-
 }
 
 /*Courses*/
@@ -365,218 +328,208 @@ border: 3px solid #6a0dad;
 }
 
 
+.container {
+    max-width: 1100px; /* Adjust this value for your overall page width */
+    margin: 0 auto; /* Centers the container */
+    padding: 0 15px; /* Default horizontal padding */
+    box-sizing: border-box; /* Ensures padding is included in element's total width */
+}
+
 /*Campus*/
 
-.campus{
-    
-   width: 80%; 
-   text-align: center; 
-   margin: auto; 
-   padding: 50px;
-
+/* Specific Section Backgrounds (optional, for visual variety) */
+.welcome-section {
+    background-color: #e0f2f7; /* Light blue for welcome */
+    padding-top: 80px; /* More padding if it's a hero-like section */
+    padding-bottom: 80px;
 }
 
-
-.campusCol{
-    
-    flex-basis: 32%;
-    padding: 20px 10px;
-    box-sizing: border-box;
-    position: relative; 
-    margin-bottom: 30px;
-    border-radius: 10px;
-    overflow: hidden;
-    
-}
-
-.campus h1{
-    
-    color: #6a0dad;
-
-}
-
-
-.campusCol img{
-  
-   border: 2px solid #6a0dad;
-   width: 100%; 
-   cursor: pointer;
-   display:block;
-   border-radius: 10px;
-}
-
-.base{
-  
-  background: transparent;    
-  width: 100%;;  
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  top: 25px;
-  height: 100%;
-  transition: 0.5s; 
-
-}
-
-.base h3{
-    
-   width: 100%; 
-   font-weight: 500; 
-   color: black;
-   font-size: 20px; 
-   bottom: 0px;
-   left: 50%;
-   transform: translateX(-50%)
-   position: absolute;
-   opacity: 0.8;
-   transition: 0.8s;
-
-
-}
-
-.base: hover h3{
-    
-  bottom: 49%;  
-  opacity: 1%;  
-  font-weight: bold;
-}
-
-/*Facilities*/
-
-.facilities{
-    
-   width: 80%; 
-   margin: auto;  
-   text-align: center;
-   padding-top: 10px;  
-
-}
-
-.facilities h1{
-    
-    color: #6a0dad;
-}
-
-
-
-.facilitiesCol{
-
-    
-   flex-basis: 31%;  
-   border-radius: 10px;  
-   text-align: left; 
- }
-
-
-.facilitiesCol img{
-    border: 2px solid #6a0dad;
-    width: 100%;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform 0.3s ease,
-    box-shadow 0.3s ease, filter 0.3s ease;
-
-}
-
-.facilitiesCol p{
-    
-    padding: 0;
-}
-
-.facilitiesCol h3{
-    
-    margin-top: 16px; 
-    margin-bottom: 15px; 
+.cta {
+    background-color: #0056b3; /* Darker background for CTA */
+    color: #fff; /* White text on dark background */
     text-align: center;
-    color: #555555;
+    padding: 80px 0;
 }
-
-/*Testimonials*/
-
-.testimonials{
-    
-   width: 60%; 
-   text-align: center; 
-   margin: auto; 
-   padding-top: 10px;
-
-} 
-
-.testimonials h1{
-    
-    color: #6a0dad;
+.cta h2, .cta p {
+    color: #fff; /* Ensure text within CTA is white */
 }
 
 
-.testimonials p{
-    
-    color: #555555;
-    font-size: 14px;
-    
+/* Inner Content Wrapper for Padding */
+.content-wrapper {
+    padding: 20px; /* Internal padding for content within the container */
 }
 
 
-.testimonialsCol{
-    
-   border-radius: 10px;  
-   box-sizing: border-box;
-   background-color: #6a0dad;
-   padding: 30px;  
-   flex-basis: 44%;  
-   margin-bottom: 5%;
-   text-align: center;
-   cursor: pointer;
-   display: flex;
-
+/* Headings */
+.section-title { /* For H1 */
+    font-size: 2.5em; /* Larger for main page title */
+    margin-bottom: 0.8em;
+    color: #0056b3;
+    text-align: center;
 }
 
-
-.testimonialsCol img{
-
-   height: 60px; 
-   margin-left: 5px; 
-   margin-right: 30px; 
-   border-radius: 50%;  
+.section-heading { /* For H2s within sections */
+    font-size: 2em;
+    margin-top: 0;
+    margin-bottom: 1em;
+    color: #0056b3;
 }
-    
-    
-.testimonialsCol p{
+.section-heading.text-center { /* Combine with utility class */
+    text-align: center;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 1em;
+}
+p.text-center {
+    text-align: center;
+    max-width: 800px; /* Keep paragraph lines readable even when centered */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Space above buttons */
+}
+
+.redbtn {
+    background-color: #e74c3c;
     color: white;
-    padding: 0;
-    text-align: left;  
-    
 }
 
-.testimonialsCol h3{
-    
-   margin-top: 15px;  
-   text-align: left;
+.redbtn:hover {
+    background-color: #c0392b;
 }
 
-/*Call to Action*/
-
-
-.cta{
-  
-   border: 2px solid #6a0dad;
-   margin: 100px auto; 
-   width: 80%;  
-   background-image: url(../pustimages/banner2.jpg);
-   background-position: center;
-   background-size: cover;
-   border-radius: 10px; 
-   text-align: center;
-   padding: 100px 0;
-   
+/* Responsive Images */
+img {
+    max-width: 100%; /* Ensures images never overflow their parent */
+    height: auto; /* Maintains aspect ratio */
+    display: block; /* Removes extra space below inline images */
 }
 
-.cta h1{
-    
-   color: #6a0dad; 
-   margin-bottom: 40px;  
-   padding: 0; 
+/* Flexbox for Campus, Facilities, and Testimonials Rows */
+.row {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line on smaller screens */
+    justify-content: center; /* Centers items if there's extra space */
+    gap: 25px; /* Space between columns */
+    margin-top: 30px; /* Space below heading */
 }
 
+/* Column Styling (Campus, Facilities, Testimonials) */
+.campusCol,
+.facilitiesCol,
+.testimonialsCol {
+    flex-basis: 300px; /* A flexible base width for columns */
+    flex-grow: 1; /* Allows columns to grow to fill space */
+    box-sizing: border-box;
+    background-color: #fdfdfd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    padding: 20px;
+    text-align: center; /* Center content within columns */
+}
+
+.campusCol img,
+.facilitiesCol img,
+.testimonialsCol img {
+    border-radius: 5px; /* Slight round for images in columns */
+    margin-bottom: 15px; /* Space below images */
+}
+
+.campusCol .base { /* Styling for the text overlay on campus images */
+    position: relative; /* If you're overlaying text, this needs to be parent of position absolute */
+    /* ... your specific styling for .base ... */
+}
+
+.testimonialsCol img {
+    width: 80px; /* Fixed size for user images */
+    height: 80px;
+    border-radius: 50%; /* Make them circular */
+    object-fit: cover; /* Ensures image covers the area without distortion */
+    margin-top: 0; /* Adjust if previous margin affects it */
+}
+
+/* Media Queries for Responsiveness */
+
+/* For smaller screens (e.g., mobile phones, max-width 767px) */
+@media (max-width: 767px) {
+    .container {
+        padding: 0 10px; /* Reduce horizontal padding */
+    }
+
+    section {
+        padding: 40px 0; /* Reduce vertical padding */
+        margin-bottom: 20px;
+    }
+
+    .section-title {
+        font-size: 2em; /* Adjust main title size */
+    }
+
+    .section-heading {
+        font-size: 1.6em; /* Adjust section heading size */
+    }
+
+    .content-wrapper {
+        padding: 15px;
+    }
+
+    .row {
+        flex-direction: column; /* Stack columns vertically */
+        gap: 20px; /* Space between stacked items */
+    }
+
+    .campusCol,
+    .facilitiesCol,
+    .testimonialsCol {
+        flex-basis: auto; /* Let items take full width when stacked */
+        width: 100%; /* Ensure full width */
+    }
+
+    .testimonialsCol {
+        margin-bottom: 20px; /* Space between stacked testimonial cards */
+    }
+
+    .cta h2 {
+        font-size: 1.8em;
+    }
+}
+
+/* For medium screens (e.g., tablets, 768px to 1024px) */
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        max-width: 900px; /* Slightly smaller max-width for tablets */
+        padding: 0 20px;
+    }
+
+    .campusCol,
+    .facilitiesCol,
+    .testimonialsCol {
+        flex-basis: calc(50% - 20px); /* Two columns, accounting for gap */
+    }
+}
+
+/* For larger screens (desktops, 1025px and up) */
+@media (min-width: 1025px) {
+    .campusCol,
+    .facilitiesCol {
+        flex-basis: calc(33.33% - 25px); /* Three columns, accounting for gap */
+    }
+    .testimonialsCol {
+        flex-basis: calc(50% - 20px); /* Two columns for testimonials */
+    }
+}
 
 /*Footer*/
 
