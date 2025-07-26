@@ -292,16 +292,8 @@ section {
     /* Sections now span 100% width of their parent (.main-content-wrapper) */
 }
 
-/* Specific Section Backgrounds (optional, for visual variety) */
-.welcome-section {
-    
-    padding-top: 80px;
-    padding-bottom: 8opx;
-
-}
-
 .cta {
-    background-color: #0056b3; /* Darker blue for CTA */
+    background-image: url(../pustimages/banner2.jpg);
     color: #fff; /* White text on dark background */
     text-align: center;
     padding: 80px 0;
