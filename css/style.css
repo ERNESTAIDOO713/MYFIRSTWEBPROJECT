@@ -334,7 +334,7 @@ rgba(0,0,0,0.05);
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 1em;
-    color: #6a0dad;
+    
 }
 .section-heading.text-center { /* Combine with utility class */
     text-align: center;
@@ -639,14 +639,14 @@ section {
     font-size: 2.2em; /* Larger for the main title */
     text-align: center;
     margin-bottom: 1em;
-    color: #0056b3; /* Example color */
+    color:#6a0dad; /* Example color */
 }
 
 .section-heading { /* For your H2s */
     font-size: 1.8em;
     margin-top: 0;
     margin-bottom: 1em;
-    color: #0056b3; /* Example color */
+    color: #6a0dad; /* Example color */
 }
 
 /* Paragraphs */
@@ -1026,22 +1026,6 @@ img {
         
     }
 
-.PUST h1{
-    
-    font-size:18px;
-
-}
-
-    
-    .PUST p{
-    
-   line-height: 1.2
-   text-align: justify;
-   color: #555555;
-   font-size: 16px; 
-
-    
-    }
 
 .application-container { 
    
@@ -1087,17 +1071,6 @@ img {
 
 }    
         
-    
-.PUST p{
-    
-  line-height: 1.2
-  text-align: justify;
-  color: #555555;
-  font-size: 16px; 
-    
-    
-}
-
     
 } 
 
