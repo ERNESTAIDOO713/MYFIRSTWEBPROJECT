@@ -277,57 +277,40 @@ border: 3px solid #6a0dad;
 
 }
 
+section {
+    padding: 60px 0; /* Vertical padding for all sections */
+    margin-bottom: 30px; /* Space between sections */
+    background-color: #fff; /* Default white background for content sections */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    /* Sections now span 100% width of their parent (.main-content-wrapper) */
+}
 
-content-area {
+/* Specific Section Backgrounds (optional, for visual variety) */
+.welcome-section {
+    background-color: #e0f2f7; /* Light blue for welcome box */
+    /* Pushed down below header. Adjust this positive value to create space. */
+    margin-top: 50px; /* Adjust this value to control space between header and welcome box */
+}
+
+.cta {
+    background-color: #0056b3; /* Darker blue for CTA */
+    color: #fff; /* White text on dark background */
+    text-align: center;
+    padding: 80px 0;
+}
+.cta h2, .cta p {
+    color: #fff; /* Ensure text within CTA is white */
+}
+
+
+/* Inner content area padding for ALL sections */
+/* This ensures consistent horizontal padding for content within each section */
+.content-area {
     padding: 0 25px; /* Horizontal padding for content within each section */
     box-sizing: border-box;
     /* If content-area is a flex container, remove specific width, flex-basis will handle it */
 }
-
-/* Special padding for the testimonial's intro paragraph */
-.content-area-p {
-    padding: 0 50px; /* More padding for this specific paragraph to control line length */
-} 
-
-.main-content-wrapper{
-    max-width: 1200px; /* Adjust this value for your overall page width */
-    margin: 0 auto; /* Centers the container */
-    padding: 0 15px; /* Default horizontal padding */
-    box-sizing: border-box; /* Ensures padding is included in element's total width */
-
-
-}
-
-.section{
-    padding: 60px 0;
-    margin-bottom: 30px;
-    background-color:#fff;
-    box-shadow: 0px 2px 8px 
-rgba(0,0,0,0.05);
-   border-radius: 8px;
-        
-}
-
-/* Specific Section Backgrounds (optional, for visual variety) */
-.welcome-section{
-    
-    padding-top: 80px; /* More padding if it's a hero-like section */
-    padding-bottom: 80px;
-}
-
-.cta { /* Darker background for CTA */
-    background-color: #6a0dad;
-    text-align: center;
-    padding: 90px 0;
-}
-.cta h2, .cta p {
-    color: #fff; /* Ensures text within CTA is white */
-}
-
-content-area {
-    padding: 0 25px; /* Horizontal padding for content within each section */
-    box-sizing: border-box;
-    
 
 /* Special padding for the testimonial's intro paragraph */
 .content-area-p {
@@ -339,6 +322,7 @@ content-area {
 .section-title { /* For H1 */
     font-size: 2.5em; /* Larger for main page title */
     margin-bottom: 0.8em;
+    color: #0056b3;
     text-align: center;
 }
 
@@ -346,22 +330,13 @@ content-area {
     font-size: 2em;
     margin-top: 0;
     margin-bottom: 1em;
-    
-}
-.section-heading.text-center { /* Combine with utility class */
-    text-align: center;
+    color: #0056b3;
+    text-align: center; /* Generally centered, can be overridden */
 }
 
 /* Paragraphs */
 p {
     margin-bottom: 1em;
-}
-p.text-center {
-    text-align: center;
-    max-width: 800px; /* Keep paragraph lines readable even when centered */
-    margin-left: auto;
-    margin-right: auto;
-    font-family: sans-serif;
 }
 
 /* Buttons */
@@ -386,123 +361,134 @@ p.text-center {
 
 /* Responsive Images */
 img {
-    max-width: 100%; /* Ensures images never overflow their parent */
-    height: auto; /* Maintains aspect ratio */
-    display: block; /* Removes extra space below inline images */
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Flexbox for Campus, Facilities, and Testimonials Rows */
 .row {
     display: flex;
-    flex-wrap: wrap; /* Allows items to wrap to the next line on smaller screens */
-    justify-content: center; /* Centers items if there's extra space */
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 25px; /* Space between columns */
     margin-top: 30px; /* Space below heading */
+    /* The .content-area class applied to .row now handles its padding */
 }
 
 /* Column Styling (Campus, Facilities, Testimonials) */
 .campusCol,
 .facilitiesCol,
 .testimonialsCol {
-    flex-basis: 300px; /* A flexible base width for columns */
-    flex-grow: 1; /* Allows columns to grow to fill space */
+    flex-basis: 300px;
+    flex-grow: 1;
     box-sizing: border-box;
     background-color: #fdfdfd;
     border-radius: 10px;
     box-shadow: 0 2px 8px rgba(0,0,0,0.08);
     padding: 20px;
-    text-align: center; /* Center content within columns */
+    text-align: center;
 }
 
 .campusCol img,
 .facilitiesCol img,
 .testimonialsCol img {
-    border-radius: 5px; /* Slight round for images in columns */
-    margin-bottom: 15px; /* Space below images */
-}
-
-.campusCol .base { /* Styling for the text overlay on campus images */
-    position: relative; /* If you're overlaying text, this needs to be parent of position absolute */
-    /* ... your specific styling for .base ... */
+    border-radius: 5px;
+    margin-bottom: 15px;
 }
 
 .testimonialsCol img {
-    width: 80px; /* Fixed size for user images */
+    width: 80px;
     height: 80px;
-    border-radius: 50%; /* Make them circular */
-    object-fit: cover; /* Ensures image covers the area without distortion */
-    margin-top: 0; /* Adjust if previous margin affects it */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: 0;
 }
 
-/* Media Queries for Responsiveness */
+/* Media Queries */
 
 /* For smaller screens (e.g., mobile phones, max-width 767px) */
-@media (max-width: 430px) {
-    .main-content-wrapper{
-        padding: 0 10px; /* Reduce horizontal padding */
+@media (max-width: 767px) {
+    .main-header {
+        height: 180px;
+        padding: 15px;
+    }
+    .main-header .header-content {
+        padding: 0 10px;
+    }
+
+    .main-content-wrapper {
+        /* No max-width on mobile; let sections fill width */
+        margin: 0; /* Remove auto margin */
     }
 
     section {
-        padding: 40px 0; /* Reduce vertical padding */
+        padding: 40px 0;
         margin-bottom: 20px;
     }
 
+    .welcome-section {
+        margin-top: 30px; /* Adjust positive margin for mobile */
+    }
+
     .section-title {
-        font-size: 2em; /* Adjust main title size */
+        font-size: 2em;
     }
 
     .section-heading {
-        font-size: 1.6em; /* Adjust section heading size */
+        font-size: 1.6em;
     }
-   
+
+    .content-area {
+        padding: 0 15px; /* Adjust horizontal padding for content */
+    }
+    .content-area-p {
+        padding: 0 25px; /* Less padding for testimonials intro on mobile */
+    }
+
 
     .row {
-        flex-direction: column; /* Stack columns vertically */
-        gap: 20px; /* Space between stacked items */
+        flex-direction: column;
+        gap: 20px;
     }
 
     .campusCol,
     .facilitiesCol,
     .testimonialsCol {
-        flex-basis: auto; /* Let items take full width when stacked */
-        width: 100%; /* Ensure full width */
-    }
-
-    .testimonialsCol {
-        margin-bottom: 20px; /* Space between stacked testimonial cards */
-    }
-
-    .cta h2 {
-        font-size: 1.8em;
+        flex-basis: auto;
+        width: 100%;
     }
 }
 
 /* For medium screens (e.g., tablets, 768px to 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .main-content-wrapper{
-        max-width: 900px; /* Slightly smaller max-width for tablets */
+    .main-content-wrapper {
+        max-width: 960px; /* Adjust for tablets */
+    }
+    .main-header .header-content {
+        max-width: 960px;
+    }
+    .content-area {
         padding: 0 20px;
     }
-
     .campusCol,
     .facilitiesCol,
     .testimonialsCol {
-        flex-basis: calc(50% - 20px); /* Two columns, accounting for gap */
+        flex-basis: calc(50% - 20px);
     }
 }
 
 /* For larger screens (desktops, 1025px and up) */
 @media (min-width: 1025px) {
+    /* Styles here override for larger screens if needed */
     .campusCol,
     .facilitiesCol {
-        flex-basis: calc(33.33% - 25px); /* Three columns, accounting for gap */
+        flex-basis: calc(33.33% - 25px);
     }
     .testimonialsCol {
-        flex-basis: calc(50% - 20px); /* Two columns for testimonials */
+        flex-basis: calc(50% - 20px);
     }
 }
-
-/*Footer*/
 
 .site-footer {
  
