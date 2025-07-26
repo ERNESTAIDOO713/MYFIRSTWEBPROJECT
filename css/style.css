@@ -119,7 +119,7 @@ nav ul li a:hover::after{
 .courses{
    
    padding-top: 60px;
-   width: 60%; 
+   width: 70%; 
    margin: auto; 
    text-align: center; 
 }
@@ -135,7 +135,7 @@ nav ul li a:hover::after{
     line-height: 1.4;
     font-weight: 300;
     color: #555555;
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify; 
 }
 
@@ -194,7 +194,7 @@ nav ul li a:hover::after{
 display: none;
 padding: 10px;
 background: #f9f9f9; 
-border: 3px solid #6a0dad;
+border: 2px solid #6a0dad;
 
 
 }
