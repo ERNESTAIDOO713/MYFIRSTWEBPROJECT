@@ -4,7 +4,7 @@
     padding: 0px;
     font-family: 'sans-serif';
     box-sizing: border-box;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /*Header*/
@@ -133,7 +133,7 @@ nav ul li a:hover::after{
 .courses p{
     
     line-height: 1.4;
-    font-weight: 500;
+    font-weight: 400;
     color: #555555;
     font-size: 14px;
     text-align: justify; 
@@ -152,7 +152,7 @@ nav ul li a:hover::after{
  border: none;   
  color: white;   
  font-size: 14px;   
- font-weight: 500;
+ font-weight: 400;
  width: 100%;   
  padding: 12px;    
  text-align: left;
