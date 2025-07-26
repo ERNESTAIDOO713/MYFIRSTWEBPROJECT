@@ -277,6 +277,12 @@ border: 3px solid #6a0dad;
 
 }
 
+.main-content-wrapper {
+    max-width: 960px; /* Or your desired width */
+    margin: 50px auto 30px auto; /* Centers the entire block horizontally */
+    box-sizing: border-box;
+}
+
 section {
     padding: 60px 0; /* Vertical padding for all sections */
     margin-bottom: 30px; /* Space between sections */
