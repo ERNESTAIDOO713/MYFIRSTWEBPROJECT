@@ -285,7 +285,7 @@ border: 3px solid #6a0dad;
 
 
 .cta {
-    background-image: url(../pustimages/banner2.jpg);
+    background-color: #6a0dad;
     color: #fff; /* White text on dark background */
     text-align: center;
     padding: 80px 0;
@@ -631,6 +631,7 @@ section {
 p {
     margin-bottom: 1em; /* Space between paragraphs */
     font-family: 'Sans-serif';   
+    color: #555555;
 }
 
 /* Images */
