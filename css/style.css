@@ -277,20 +277,12 @@ border: 3px solid #6a0dad;
 
 }
 
-.main-content-wrapper {
+.container {
     max-width: 960px; /* Or your desired width */
     margin: 50px auto 30px auto; /* Centers the entire block horizontally */
     box-sizing: border-box;
 }
 
-section {
-    padding: 60px 0; /* Vertical padding for all sections */
-    margin-bottom: 30px; /* Space between sections */
-    background-color: #fff; /* Default white background for content sections */
-    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
-    border-radius: 8px;
-    /* Sections now span 100% width of their parent (.main-content-wrapper) */
-}
 
 .cta {
     background-image: url(../pustimages/banner2.jpg);
@@ -416,20 +408,12 @@ img {
         padding: 0 10px;
     }
 
-    .main-content-wrapper {
+    .container{
         /* No max-width on mobile; let sections fill width */
         margin: 0; /* Remove auto margin */
     }
 
-    section {
-        padding: 40px 0;
-        margin-bottom: 20px;
-    }
-
-    .welcome-section {
-        margin-top: 30px; /* Adjust positive margin for mobile */
-    }
-
+    
     .section-title {
         font-size: 2em;
     }
@@ -461,7 +445,7 @@ img {
 
 /* For medium screens (e.g., tablets, 768px to 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .main-content-wrapper {
+    .container {
         max-width: 960px; /* Adjust for tablets */
     }
     .main-header .header-content {
