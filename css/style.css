@@ -288,9 +288,10 @@ section {
 
 /* Specific Section Backgrounds (optional, for visual variety) */
 .welcome-section {
-    background-color: #e0f2f7; /* Light blue for welcome box */
-    /* Pushed down below header. Adjust this positive value to create space. */
-    margin-top: 50px; /* Adjust this value to control space between header and welcome box */
+    
+    padding-top: 80px;
+    padding-bottom: 8opx;
+
 }
 
 .cta {
