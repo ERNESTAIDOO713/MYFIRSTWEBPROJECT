@@ -278,8 +278,19 @@ border: 3px solid #6a0dad;
 }
 
 
-.container {
-    max-width: 1100px; /* Adjust this value for your overall page width */
+content-area {
+    padding: 0 25px; /* Horizontal padding for content within each section */
+    box-sizing: border-box;
+    /* If content-area is a flex container, remove specific width, flex-basis will handle it */
+}
+
+/* Special padding for the testimonial's intro paragraph */
+.content-area-p {
+    padding: 0 50px; /* More padding for this specific paragraph to control line length */
+} 
+
+.main-content-wrapper{
+    max-width: 1200px; /* Adjust this value for your overall page width */
     margin: 0 auto; /* Centers the container */
     padding: 0 15px; /* Default horizontal padding */
     box-sizing: border-box; /* Ensures padding is included in element's total width */
@@ -310,13 +321,17 @@ rgba(0,0,0,0.05);
     padding: 90px 0;
 }
 .cta h2, .cta p {
-    color: #fff; /* Ensure text within CTA is white */
+    color: #fff; /* Ensures text within CTA is white */
 }
 
+content-area {
+    padding: 0 25px; /* Horizontal padding for content within each section */
+    box-sizing: border-box;
+    
 
-/* Inner Content Wrapper for Padding */
-.content-wrapper {
-    padding: 20px; /* Internal padding for content within the container */
+/* Special padding for the testimonial's intro paragraph */
+.content-area-p {
+    padding: 0 50px; /* More padding for this specific paragraph to control line length */
 }
 
 
@@ -423,7 +438,7 @@ img {
 
 /* For smaller screens (e.g., mobile phones, max-width 767px) */
 @media (max-width: 430px) {
-    .container {
+    .main-content-wrapper{
         padding: 0 10px; /* Reduce horizontal padding */
     }
 
@@ -439,10 +454,7 @@ img {
     .section-heading {
         font-size: 1.6em; /* Adjust section heading size */
     }
-
-    .content-wrapper {
-        padding: 15px;
-    }
+   
 
     .row {
         flex-direction: column; /* Stack columns vertically */
@@ -467,7 +479,7 @@ img {
 
 /* For medium screens (e.g., tablets, 768px to 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
-    .container {
+    .main-content-wrapper{
         max-width: 900px; /* Slightly smaller max-width for tablets */
         padding: 0 20px;
     }
@@ -671,7 +683,7 @@ img {
 
 /* For screens smaller than 768px (mobile-first approach) */
 @media (max-width: 430px) {
-    .abou-page container {
+    .about-page container {
         padding: 0 10px; /* Slightly less padding on very small screens */
     }
 
