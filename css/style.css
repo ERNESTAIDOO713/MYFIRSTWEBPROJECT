@@ -293,10 +293,10 @@ border: 3px solid #6a0dad;
    border-radius: 10px; 
    text-align: center;
    padding: 100px 15px;
-   color: peachpuff; 
+ 
 }
 .cta h2, .cta p {
-    color: #fff; /* Ensure text within CTA is white */
+    color: peachpuff; /* Ensure text within CTA is white */
 }
 
 
