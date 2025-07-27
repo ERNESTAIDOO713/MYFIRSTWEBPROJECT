@@ -2,9 +2,8 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'sans-serif';
     box-sizing: border-box;
-    font-weight: 400;
+    
 }
 
 /*Header*/
@@ -21,8 +20,10 @@
 }
 
 .body{
-    
-    overflow-x: hidden;
+
+  font-family: 'Open Sans', sans-serif; /* General text font */
+  overflow-x: hidden;
+  font-weight: 500;
 }
 
 /*Subheader*/
