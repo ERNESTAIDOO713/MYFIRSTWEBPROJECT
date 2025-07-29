@@ -644,7 +644,7 @@ section {
 /* Paragraphs */
 p {
     margin-bottom: 1em; /* Space between paragraphs */
-    font-family: 'Montserrat;   
+    font-family: 'Montserrat';   
     color:#555555;
     font-size: 14px;
 }
@@ -730,7 +730,7 @@ img {
     text-align: justify;
     line-height: 1.5; 
     font-size: 16px;
-    font-family: 'Sans-serif';   
+    font-family: 'Montserrat;   
     
 }
 
