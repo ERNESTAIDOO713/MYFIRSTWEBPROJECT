@@ -403,6 +403,12 @@ img {
     margin-top: 0;
 }
 
+.testimonialsCol p{
+    font-family: 'Montserrat'
+    font-size: 14px;
+    color:#555555;
+}
+
 /* Media Queries */
 
 /* For smaller screens (e.g., mobile phones, max-width 767px) */
@@ -637,8 +643,9 @@ section {
 /* Paragraphs */
 p {
     margin-bottom: 1em; /* Space between paragraphs */
-    font-family: 'Sans-serif';   
-
+    font-family: 'Montserrat;   
+    color:#555555;
+    font-size: 14px;
 }
 
 /* Images */
