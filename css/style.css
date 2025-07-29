@@ -335,6 +335,7 @@ border: 2px solid #6a0dad;
 /* Paragraphs */
 p {
     margin-bottom: 1em;
+    color: #555555;
 }
 
 /* Buttons */
