@@ -23,7 +23,7 @@
 
   font-family: 'Montserrat'; /* General text font */
   overflow-x: hidden;
-  font-weight: 400;
+  font-weight: 300;
   color: #555555;
 }
 
@@ -154,7 +154,7 @@ nav ul li a:hover::after{
  border: none;   
  color: white;   
  font-size: 14px;   
- font-weight: 400;
+ font-weight: 300;
  width: 100%;   
  padding: 12px;    
  text-align: left;
@@ -738,7 +738,7 @@ img {
 .blogleft h2{
  text-align: center;
   color: #6a0dad;
-  font-weight: 400;   
+  font-weight: 300;   
   margin-top: 30px 0; 
     
 }
