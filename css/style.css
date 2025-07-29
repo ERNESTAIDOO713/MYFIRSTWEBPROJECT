@@ -617,7 +617,6 @@ section {
     padding: 40px 0; /* Vertical padding for each section */
     background-color: #fff; /* White background for content sections */
     margin-bottom: 20px; /* Space between sections */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.05); /* Subtle shadow for depth */
     border-radius: 8px;
 }
 
