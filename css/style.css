@@ -135,7 +135,7 @@ nav ul li a:hover::after{
 .courses p{
     
     line-height: 1.4;
-    font-weight: 400;
+    font-weight: 300;
     color: #555555;
     font-size: 14px;
     text-align: justify; 
@@ -408,6 +408,8 @@ img {
     font-family: 'Montserrat'
     font-size: 14px;
     color:#555555;
+    font-weight: 300;
+
 }
 
 /* Media Queries */
@@ -1074,4 +1076,5 @@ img {
 
 
     
+
 
