@@ -639,13 +639,6 @@ section {
     color: #6a0dad; /* Example color */
 }
 
-/* Paragraphs */
-p {
-    margin-bottom: 1em; /* Space between paragraphs */
-    font-family: 'Montserrat';   
-    color:#555555;
-    font-size: 14px;
-}
 
 /* Images */
 img {
@@ -1073,6 +1066,7 @@ img {
 
 
     
+
 
 
 
