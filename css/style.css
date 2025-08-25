@@ -858,19 +858,11 @@ img {
   border: 2px solid #6a0dad;
   width: 60%;  
   display: block;
-  margin:0 auto;
-
-    
+  margin:0 auto;    
 
 }
 
-.application-container p{
-    text-align:justify;
-    font-size: 16px;
-    color: #555555;
-    font-family:'roboto';
-    line-height: 1.5;
-}
+
 
 .application-container {                   
    
@@ -1076,6 +1068,7 @@ img {
 
 
     
+
 
 
 
