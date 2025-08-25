@@ -651,14 +651,33 @@ img {
     text-align: center;
 }
 
-.about-page container .p{
-
-    font-size: 16px;
-    text-align: justify;
-    line-height: 1.5;
-    color: red;
-    font-family: 'roboto';
+/* General paragraph styling */
+.about-page p {
+  font-family: 'Roboto', sans-serif;   /* Clean and readable font */
+  font-size: 16px;                     /* Comfortable size */
+  line-height: 1.5;                    /* Good spacing between lines */
+  color: #444;                         /* Softer than pure black */
+  margin-bottom: 1.2em;                /* Space between paragraphs */
 }
+
+/* Optional: Larger text for the intro section */
+.about-us-intro p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #333;
+  max-width: 800px;                    /* Keeps text from being too wide */
+  margin: 0 auto 20px auto;            /* Centered under heading */
+}
+
+/* History, Growth, Achievements sections */
+.pust-history p,
+.pust-growth-expansion p,
+.pust-achievements p {
+  text-align: justify;                 
+  text-justify: inter-word;
+  font-size: 16px;
+}
+
 
 /* Media Queries for different screen sizes */
 
@@ -1068,6 +1087,7 @@ img {
 
 
     
+
 
 
 
