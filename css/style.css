@@ -329,12 +329,6 @@ border: 2px solid #6a0dad;
     text-align: center; /* Generally centered, can be overridden */
 }
 
-/* Paragraphs */
-p {
-    margin-bottom: 1em;
-    color: #555555;
-}
-
 /* Buttons */
 .btn {
     display: inline-block;
@@ -1066,6 +1060,7 @@ img {
 
 
     
+
 
 
 
