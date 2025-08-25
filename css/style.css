@@ -651,6 +651,14 @@ img {
     text-align: center;
 }
 
+.about-page container p{
+
+    font-size: 16px;
+    text-align: justify;
+    line-height: 1.5;
+    color: #555555;
+    font-family: 'roboto';
+}
 
 /* Media Queries for different screen sizes */
 
@@ -1068,6 +1076,7 @@ img {
 
 
     
+
 
 
 
