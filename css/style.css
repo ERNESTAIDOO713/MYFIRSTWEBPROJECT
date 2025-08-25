@@ -21,7 +21,7 @@
 
 .body{
 
-  font-family: 'Montserrat'; /* General text font */
+  font-family: 'sans-serif','Montserrat'; /* General text font */
   overflow-x: hidden;
 }
 
@@ -131,7 +131,7 @@ nav ul li a:hover::after{
 }
 
 .courses p{
-    
+    font-family:''sans-serif;
     line-height: 1.4;
     color: #555555;
     font-size: 14px;
@@ -265,7 +265,7 @@ border: 2px solid #6a0dad;
 }
 
 .StudentsCol p{
-    
+    font-family:'sans-serif';
     padding: 0;
     font-size: 14px;
     margin-top: 16px; 
@@ -296,6 +296,8 @@ border: 2px solid #6a0dad;
 }
 .cta h2, .cta p {
     color: peachpuff;
+    font-family:'sans-serif'
+
 }
 
 
@@ -396,7 +398,7 @@ img {
 }
 
 .testimonialsCol p{
-    font-family: 'Montserrat';
+    font-family: 'sans-serif';
     font-size: 14px;
     color:#555555;
 
@@ -857,6 +859,7 @@ img {
     text-align:justify;
     font-size:14px;
     color: #555555;
+    font-family:'sans-serif';
 }
 
 .application-container {                   
@@ -979,9 +982,9 @@ img {
 
 
     .courses p{
-        
-       font-size: 14px; 
-       line-height: 1.4;
+       color: #555555;
+       font-size: 12px; 
+       line-height: 1.2;
        text-align: justify;
         
     }
@@ -1049,8 +1052,8 @@ img {
    
 
 }    
-        
     
+
 } 
 
 
@@ -1060,6 +1063,7 @@ img {
 
 
     
+
 
 
 
