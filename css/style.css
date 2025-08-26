@@ -654,8 +654,7 @@ img {
 /* General paragraph styling */
 .about-page p {
   font-family: 'Roboto';   /*Clean and readable font */
-  font-size: 16px;                     /* Comfortable size */
-  line-height: 1.5;                    /* Good spacing between lines */
+  font-size: 16px;                     /* Comfortable size */                   /* Good spacing between lines */
   color: #555555;                         /* Softer than pure black */
   margin-bottom: 1.2em;                /* Space between paragraphs */
 }
@@ -1086,6 +1085,7 @@ img {
 
 
     
+
 
 
 
