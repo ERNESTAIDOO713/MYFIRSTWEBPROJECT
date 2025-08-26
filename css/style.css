@@ -777,7 +777,7 @@ img {
     text-align: justify;
     line-height: 1.5; 
     font-size: 16px;
-    font-family: 'Montserrat';   
+    font-family: 'roboto;   
     
 }
 
@@ -926,6 +926,17 @@ img {
     box-shadow: 0 4px 12px rgba(0,0,0,0.05);
                       
 }
+
+.application-container p{
+   
+   text-align: justify;
+   color:#444;
+   line-height:1.5;
+   font-size: 16px;
+
+    
+}
+
 
 .application-container h1{ 
     color: #6a0dad;
@@ -1132,6 +1143,7 @@ img {
 
 
     
+
 
 
 
