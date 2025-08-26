@@ -1075,16 +1075,31 @@ img {
 
 }    
     
+.about-us-intro p {
+  font-size: 14px;
+  color: #555555;
+  max-width: 800px;                    /* Keeps text from being too wide */
+  margin: 0 auto 20px auto;            /* Centered under heading */
+}
+
+/* History, Growth, Achievements sections */
+.pust-history p,
+.pust-growth-expansion p,
+.pust-achievements p {
+  text-align: justify;                 
+  line-height: 1.3;
+  font-size: 14px;
 
 } 
 
-
+}
 
 
 
 
 
     
+
 
 
 
