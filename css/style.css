@@ -668,15 +668,40 @@ img {
 }
 
 /* History, Growth, Achievements sections */
-.pust-history p,
-.pust-growth-expansion p,
-.pust-achievements p, 
-.pust-call-to-action p {
-  margin-bottom:1.2 rem;
+.pust-history p{
+
   text-align: justify;                 
   line-height: 1.5;
   font-size: 16px;
   color:#444;
+  margin-bottom:1.2em;
+}
+
+.pust-growth-expansion p{
+  
+  text-align: justify;                 
+  line-height: 1.5;
+  font-size: 16px;
+  color:#444;
+  margin-bottom: 1.2em;
+}
+
+.pust-achievements{
+
+  text-align: justify;                 
+  line-height: 1.5;
+  font-size: 16px;
+  color:#444;
+
+}
+
+.pust-call-to-action p{
+
+  text-align: justify;                 
+  line-height: 1.5;
+  font-size: 16px;
+  color:#444;
+    
 }
 
 .content-wrapper {
@@ -1107,6 +1132,7 @@ img {
 
 
     
+
 
 
 
