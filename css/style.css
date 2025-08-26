@@ -655,15 +655,15 @@ img {
 .about-page p {
   font-family: 'Roboto';
   font-size: 16px;                      
-  color: #555555;                         
+  color: #444;                         
   margin-bottom: 1.2em;               
 }
 
 /* Optional: Larger text for the intro section */
 .about-us-intro p {
   font-size: 16px;
-  color: #555555;
-  max-width: 700px;                    /* Keeps text from being too wide */
+  color: #444;
+  max-width: 800px;                    /* Keeps text from being too wide */
   margin: 0 auto 20px auto;            /* Centered under heading */
 }
 
@@ -674,6 +674,7 @@ img {
   text-align: justify;                 
   line-height: 1.5;
   font-size: 16px;
+  color:#444;
 }
 
 .content-wrapper {
@@ -1084,8 +1085,7 @@ img {
     
 .about-us-intro p {
   font-size: 14px;
-  color: #555555;
-  max-width: 600px;                    /* Keeps text from being too wide */
+  max-width: 700px;                    /* Keeps text from being too wide */
   margin: 0 auto 20px auto;            /* Centered under heading */
 }
 
@@ -1106,6 +1106,7 @@ img {
 
 
     
+
 
 
 
