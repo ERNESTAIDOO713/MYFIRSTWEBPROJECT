@@ -670,7 +670,8 @@ img {
 /* History, Growth, Achievements sections */
 .pust-history p,
 .pust-growth-expansion p,
-.pust-achievements p {
+.pust-achievements p, 
+.pust-call-to-action p {
   margin-bottom:1.2 rem;
   text-align: justify;                 
   line-height: 1.5;
@@ -1106,6 +1107,7 @@ img {
 
 
     
+
 
 
 
