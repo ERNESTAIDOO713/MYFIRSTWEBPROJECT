@@ -406,6 +406,17 @@ img {
 
 }
 
+
+.testimonials p{
+   
+   font-family: 'roboto';
+   font-size: 14px;
+   color:#444;
+   line-height:1.3;
+    
+}
+
+
 /* Media Queries */
 
 /* For smaller screens (e.g., mobile phones, max-width 767px) */
@@ -1143,6 +1154,7 @@ img {
 
 
     
+
 
 
 
