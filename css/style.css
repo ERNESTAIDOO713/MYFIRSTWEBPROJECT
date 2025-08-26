@@ -653,17 +653,17 @@ img {
 
 /* General paragraph styling */
 .about-page p {
-  font-family: 'Roboto';   /*Clean and readable font */
-  font-size: 16px;                     /* Comfortable size */                   /* Good spacing between lines */
-  color: #555555;                         /* Softer than pure black */
-  margin-bottom: 1.2em;                /* Space between paragraphs */
+  font-family: 'Roboto';
+  font-size: 16px;                      
+  color: #555555;                         
+  margin-bottom: 1.2em;               
 }
 
 /* Optional: Larger text for the intro section */
 .about-us-intro p {
   font-size: 16px;
   color: #555555;
-  max-width: 800px;                    /* Keeps text from being too wide */
+  max-width: 700px;                    /* Keeps text from being too wide */
   margin: 0 auto 20px auto;            /* Centered under heading */
 }
 
@@ -884,7 +884,7 @@ img {
 .application-container {                   
    
     width: 100%;
-    max-width: 700px; 
+    max-width: 800px; 
     margin: 0 auto; 
     padding: 40px 20px; 
     background-color: #f9f9f9; 
@@ -1074,11 +1074,12 @@ img {
    
 
 }    
+
     
 .about-us-intro p {
   font-size: 14px;
   color: #555555;
-  max-width: 800px;                    /* Keeps text from being too wide */
+  max-width: 600px;                    /* Keeps text from being too wide */
   margin: 0 auto 20px auto;            /* Centered under heading */
 }
 
@@ -1099,6 +1100,7 @@ img {
 
 
     
+
 
 
 
