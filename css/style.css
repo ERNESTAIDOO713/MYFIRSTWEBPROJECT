@@ -135,7 +135,7 @@ nav ul li a:hover::after{
     line-height: 1.5;
     color: #444;
     font-size: 16px;
-    text-align: justify; 
+    text-align: center; 
 }
 
 .course-item{
@@ -1154,6 +1154,7 @@ img {
 
 
     
+
 
 
 
