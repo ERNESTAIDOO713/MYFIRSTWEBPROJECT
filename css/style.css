@@ -672,10 +672,10 @@ img {
 
 /* Optional: Larger text for the intro section */
 .about-us-intro p {
-  font-size: 16px;
+  font-size: 18px;
   color: #444;
-  max-width: 800px;                    /* Keeps text from being too wide */
-  margin: 0 auto 20px auto;            /* Centered under heading */
+  max-width: 800px;                    /*  text from being too wide */
+  margin: 0 auto 20px auto;            /*  */
 }
 
 /* History, Growth, Achievements sections */
@@ -1154,6 +1154,7 @@ img {
 
 
     
+
 
 
 
