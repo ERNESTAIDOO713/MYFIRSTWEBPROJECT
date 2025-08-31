@@ -706,6 +706,17 @@ img {
 
 }
 
+.pust-achievements ul {
+  margin: 15px 0;
+  padding-left: 20px;
+  line-height: 1.6;
+}
+
+.pust-achievements li {
+  margin-bottom: 10px;
+  color: #444;
+}
+
 .pust-call-to-action p{
 
   text-align: center;                 
@@ -719,7 +730,6 @@ img {
   max-width: 900px; 
   margin: 0 auto;
 }
-
 
 
 /* Media Queries for different screen sizes */
@@ -1151,6 +1161,7 @@ img {
 
 
     
+
 
 
 
