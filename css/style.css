@@ -276,9 +276,9 @@ border: 2px solid #6a0dad;
     line-height: 1.5;
 
 }
-
+/*Global Container*/
 .container {
-    max-width: 960px; /* Or your desired width */
+    max-width: 960px; 
     margin: 50px auto 30px auto; /* Centers the entire block horizontally */
     box-sizing: border-box;
 }
@@ -296,18 +296,18 @@ border: 2px solid #6a0dad;
  
 }
 .cta h2, .cta p {
-    color: peachpuff;
+    color: orangered;
     font-family:'Montserrat','roboto';
 
 }
 
 
 /* Inner content area padding for ALL sections */
-/* This ensures consistent horizontal padding for content within each section */
+
 .content-area {
     padding: 0 25px; /* Horizontal padding for content within each section */
     box-sizing: border-box;
-    /* If content-area is a flex container, remove specific width, flex-basis will handle it */
+    
 }
 
 /* Special padding for the testimonial's intro paragraph */
@@ -329,7 +329,7 @@ border: 2px solid #6a0dad;
     margin-top: 0;
     margin-bottom: 1em;
     color: #0056b3;
-    text-align: center; /* Generally centered, can be overridden */
+    text-align: center; 
 }
 
 /* Buttons */
@@ -366,7 +366,7 @@ img {
     justify-content: center;
     gap: 25px; /* Space between columns */
     margin-top: 30px; /* Space below heading */
-    /* The .content-area class applied to .row now handles its padding */
+    
 }
 
 /* Column Styling (Campus, Facilities, Testimonials) */
@@ -430,8 +430,8 @@ img {
     }
 
     .container{
-        /* No max-width on mobile; let sections fill width */
-        margin: 0; /* Remove auto margin */
+        
+        margin: 0; 
     }
 
     
@@ -467,7 +467,7 @@ img {
 /* For medium screens (e.g., tablets, 768px to 1024px) */
 @media (min-width: 768px) and (max-width: 1024px) {
     .container {
-        max-width: 960px; /* Adjust for tablets */
+        max-width: 960px; 
     }
     .main-header .header-content {
         max-width: 960px;
@@ -609,9 +609,9 @@ img {
 }
 
 
-/*About Us*/
+/*About PUST*/
 
-/* Container for content width and centering */
+/* About Page Container for content width and centering */
 .about-page container {
     max-width: 960px; /* Max width for larger screens */
     margin: 0 auto; /* Center the container horizontally */
@@ -634,17 +634,17 @@ section {
 
 /* Headings */
 .section-title { /* For your main H1 */
-    font-size: 2.2em; /* Larger for the main title */
+    font-size: 2.2em; /* Larger text for the main title */
     text-align: center;
     margin-bottom: 1em;
-    color:#6a0dad; /* Example color */
+    color:#6a0dad; 
 }
 
-.section-heading { /* For your H2s */
+.section-heading { /* For H2s */
     font-size: 1.8em;
     margin-top: 0;
     margin-bottom: 1em;
-    color: #6a0dad; /* Example color */
+    color: #6a0dad; 
 }
 
 
@@ -662,7 +662,7 @@ img {
     text-align: center;
 }
 
-/* General paragraph styling */
+
 .about-page p {
   font-family: 'Roboto';
   font-size: 16px;                      
@@ -670,12 +670,12 @@ img {
   margin-bottom: 1.2em;               
 }
 
-/* Optional: Larger text for the intro section */
+
 .about-us-intro p {
   font-size: 18px;
   color: #444;
-  max-width: 800px;                    /*  text from being too wide */
-  margin: 0 auto 20px auto;            /*  */
+  max-width: 800px;                    
+  margin: 0 auto 20px auto;            
 }
 
 /* History, Growth, Achievements sections */
@@ -724,7 +724,7 @@ img {
 
 /* Media Queries for different screen sizes */
 
-/* For screens smaller than 768px (mobile-first approach) */
+/* For  smaller screens(iphones,tablets,etc) */
 @media (max-width: 430px) {
     .about-page container {
         padding: 0 10px; /* Slightly less padding on very small screens */
@@ -914,6 +914,7 @@ img {
     background-color:#6a0dad;
 
 }
+/*Apply Page*/
 
 .application-container img{
   border-radius: 5px;
@@ -1012,12 +1013,8 @@ img {
 .application-container .contact a { 
             font-weight: bold; 
             color: #6a0dad;
-}
 
-
-/*Mobile View(Responsiveness)*/
-
-/*Mobile Phones*/
+    
 @media (max-width: 768px) {   
     
     nav ul li{
@@ -1103,7 +1100,7 @@ img {
 
 
 }
-
+/*For smaller screens(iphones,tablets,etc)*/
 @media (max-width:430px){
 
  .header{
@@ -1133,11 +1130,11 @@ img {
     
 .about-us-intro p {
   font-size: 14px;
-  max-width: 700px;                    /* Keeps text from being too wide */
-  margin: 0 auto 20px auto;            /* Centered under heading */
+  max-width: 700px;                    
+  margin: 0 auto 20px auto;            
 }
 
-/* History, Growth, Achievements sections */
+
 .pust-history p,
 .pust-growth-expansion p,
 .pust-achievements p {
@@ -1154,6 +1151,7 @@ img {
 
 
     
+
 
 
 
