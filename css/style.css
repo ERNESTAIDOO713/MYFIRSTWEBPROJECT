@@ -636,14 +636,14 @@ section {
 .section-title { /* For your main H1 */
     font-size: 2.2em; /* Larger text for the main title */
     text-align: center;
-    margin-bottom: 1em;
+    margin-bottom: 30px;
     color:#6a0dad; 
 }
 
 .section-heading { /* For H2s */
     font-size: 1.8em;
     margin-top: 0;
-    margin-bottom: 1em;
+    margin-bottom: 30px;
     color: #6a0dad; 
 }
 
@@ -667,7 +667,7 @@ img {
   font-family: 'Roboto';
   font-size: 16px;                      
   color: #444;                         
-  margin-bottom: 1.2em;               
+  margin-bottom: 10px;               
 }
 
 
@@ -685,7 +685,7 @@ img {
   line-height: 1.5;
   font-size: 16px;
   color:#444;
-  margin-bottom:1.2em;
+  margin-bottom:10px;
 }
 
 .pust-growth-expansion p{
@@ -695,6 +695,7 @@ img {
   font-size: 16px;
   color:#444;
   margin-bottom: 1.2em;
+  
 }
 
 .pust-achievements{
@@ -709,12 +710,14 @@ img {
 .pust-achievements ul {
   margin: 15px 0;
   padding-left: 20px;
-  line-height: 1.6;
+  line-height: 1.5;
+  font-size:16px;
 }
 
 .pust-achievements li {
   margin-bottom: 10px;
   color: #444;
+  font-size:16px;
 }
 
 .pust-call-to-action p{
@@ -1161,6 +1164,7 @@ img {
 
 
     
+
 
 
 
